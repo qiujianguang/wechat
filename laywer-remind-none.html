@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,minimum-scale=1.0, maximum-scale=1.0,width=device-width">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no, email=no">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <title>律师在线提醒</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/laywer-remind-none.css">
+    <script src="js/jquery-1.8.0.min.js"></script>
+    <script src="js/hotcss.js"></script>
+</head>
+<body>
+<div class="mobile-remind-none">
+    <div class="top">
+        <div class="info-box flex-bt">
+            <img src="images/headimg2.png" alt="">
+            <div class="r-cont ">
+                <p class="c-tit">听我说</p>
+                <p class="c-con overmore">
+                    黄总，这里不会给您推送任何广告和服务通知，都是重要提醒，所以<span>要特别关注~~</span>
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="wait-none-wrap">
+        <div class="content">
+        <img class="t-img alicen" src="images/tixing.png" alt="">
+        <p>黄总，现在暂时没有提醒事项</p>
+        <div class="t-cont">
+            之后服务过程中，如果遇到同行风险，
+            我会整理给您规避提醒；合同即便没有问题，
+            履约过程依然可能产生风险，您设置的合同履约也会提示到您。
+        </div>
+        <button class="set-btn">去设置合同履约提醒</button>
+        </div>
+    </div>
+    <!--底部导航-->
+    <ul class="bottom flex-arocen">
+        <li class="m-serve  alicen">
+            <a href="index.html">
+                <div></div>
+                <p>企业服务</p>
+            </a>
+        </li>
+        <li class="m-remind cur alicen">
+            <a href="laywer-remind.html">
+                <div></div>
+                <p>律师提醒</p>
+            </a>
+        </li>
+        <li class="m-danger alicen">
+            <a href="">
+                <div></div>
+                <p>行业风险</p>
+            </a>
+        </li>
+        <li class="m-manage alicen">
+            <a href="">
+                <div></div>
+                <p>合同管理</p>
+            </a>
+        </li>
+    </ul>
+</div>
+<script>
+    $(document).ready(function(){
+        $(".bottom li").click(function () {
+            var $this=$(this);
+            $this.addClass("cur").siblings().removeClass("cur");
+        })
+
+    })
+</script>
+</body>
+</html>
