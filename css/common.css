@@ -1,0 +1,396 @@
+/* line 5, ../sass/common.scss */
+html {
+  font-family: sans-serif;
+}
+
+/* line 6, ../sass/common.scss */
+html, body, header, section, footer, div, ul, ol, li, img, a, span, em, del, legend, center, strong, var, fieldset, form, label, dl, dt, dd, cite, input, hr, time, mark, code, figcaption, figure, textarea, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-style: normal;
+}
+
+/* line 7, ../sass/common.scss */
+html, body {
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  background-color: #fff;
+  width: 100%;
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+}
+
+/* line 8, ../sass/common.scss */
+nav, article, aside, details, main, header, footer, section, fieldset, figcaption, figure {
+  display: block;
+}
+
+/* line 9, ../sass/common.scss */
+img, a, button, em, del, strong, var, label, cite, small, time, mark, code, textarea {
+  display: inline-block;
+}
+
+/* line 10, ../sass/common.scss */
+header, section, footer {
+  position: relative;
+}
+
+/* line 11, ../sass/common.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 12, ../sass/common.scss */
+input, button, textarea {
+  outline: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  /*-webkit-appearance:none;*/
+  background-color: transparent;
+}
+
+/* line 13, ../sass/common.scss */
+a:active, a:hover {
+  outline: 0;
+}
+
+/* line 14, ../sass/common.scss */
+a, a:visited {
+  text-decoration: none;
+}
+
+/* line 15, ../sass/common.scss */
+img, object, video, embed {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/* line 19, ../sass/common.scss */
+.overstep {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* line 20, ../sass/common.scss */
+.overmore {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+/* line 28, ../sass/common.scss */
+body, html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 33, ../sass/common.scss */
+label, .wordWrap {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+/* line 36, ../sass/common.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 37, ../sass/common.scss */
+td, th {
+  padding: 0;
+}
+
+/* line 38, ../sass/common.scss */
+* {
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/* line 39, ../sass/common.scss */
+img {
+  border: 0px;
+}
+
+/* line 43, ../sass/common.scss */
+a, input, button {
+  outline: none;
+  border: none;
+}
+
+/* line 44, ../sass/common.scss */
+ol, ul {
+  list-style: none outside none;
+}
+
+/* line 45, ../sass/common.scss */
+.fl {
+  float: left;
+}
+
+/* line 46, ../sass/common.scss */
+.fr {
+  float: right;
+}
+
+/* line 47, ../sass/common.scss */
+.none {
+  display: none;
+}
+
+/* line 48, ../sass/common.scss */
+.center {
+  text-align: center;
+}
+
+/* line 50, ../sass/common.scss */
+[contentEditable=true]:empty:not(:focus):before {
+  content: attr(data-text);
+  color: lightgrey;
+}
+
+/* line 54, ../sass/common.scss */
+.flex1 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* line 61, ../sass/common.scss */
+.flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -o-justify-content: space-between;
+  align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+}
+
+/* line 72, ../sass/common.scss */
+.flex-bt {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -o-justify-content: space-between;
+}
+
+/* line 82, ../sass/common.scss */
+.flex-arocen {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  -ms-justify-content: space-around;
+  -o-justify-content: space-around;
+  align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+}
+
+/* line 93, ../sass/common.scss */
+.alicen {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+}
+
+/* line 102, ../sass/common.scss */
+.col-bet {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -o-justify-content: space-between;
+}
+
+/* line 113, ../sass/common.scss */
+.col-aro {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  -ms-justify-content: space-around;
+  -o-justify-content: space-around;
+}
+
+/* line 124, ../sass/common.scss */
+.col-cen {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  -ms-justify-content: space-around;
+  -o-justify-content: space-around;
+  align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+}
+
+/* line 136, ../sass/common.scss */
+.flex-center {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+}
+
+/* line 148, ../sass/common.scss */
+.wrap-cen {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+}
+
+/* line 159, ../sass/common.scss */
+.bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2.38933rem;
+  background: white;
+  border-top: 1px solid #e5e1e1;
+  z-index: 999;
+}
+/* line 167, ../sass/common.scss */
+.bottom li.cur a {
+  color: #0077ff;
+}
+/* line 171, ../sass/common.scss */
+.bottom li a {
+  color: #979797;
+}
+/* line 173, ../sass/common.scss */
+.bottom li a div {
+  width: 0.98133rem;
+  height: 0.98133rem;
+}
+/* line 176, ../sass/common.scss */
+.bottom li a p {
+  text-align: center;
+  font-size: 0.46933rem;
+  padding-top: 0.21333rem;
+}
+/* line 183, ../sass/common.scss */
+.bottom .m-serve div {
+  background: url("../images/serve.png") 0 0 no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+}
+/* line 187, ../sass/common.scss */
+.bottom .m-serve.cur div {
+  background: url("../images/aserve.png") 0 0 no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+}
+/* line 191, ../sass/common.scss */
+.bottom .m-remind div {
+  background: url("../images/remind.png") 0 0 no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+}
+/* line 195, ../sass/common.scss */
+.bottom .m-remind.cur div {
+  background: url("../images/aremind.png") 0 0 no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+}
+/* line 199, ../sass/common.scss */
+.bottom .m-danger div {
+  background: url("../images/danger.png") 0 0 no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+}
+/* line 203, ../sass/common.scss */
+.bottom .m-danger.cur div {
+  background: url("../images/adanger.png") 0 0 no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+}
+/* line 207, ../sass/common.scss */
+.bottom .m-manage div {
+  background: url("../images/manage.png") 0 0 no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+}
+/* line 211, ../sass/common.scss */
+.bottom .m-manage.cur div {
+  background: url("../images/amanage.png") 0 0 no-repeat;
+  background-size: contain;
+  margin: 0 auto;
+}

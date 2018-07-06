@@ -1,0 +1,560 @@
+@charset "UTF-8";
+/* line 5, ../sass/index.scss */
+.mobile-serve {
+  /*头部*/
+  /*咨询*/
+  /*比较*/
+  /*地图信息*/
+  /*提示底部*/
+}
+/* line 7, ../sass/index.scss */
+.mobile-serve .top {
+  width: 100%;
+  height: 8.74667rem;
+  background-image: url("../images/bw-bg.png");
+  background-size: cover;
+}
+/* line 12, ../sass/index.scss */
+.mobile-serve .top .info-box {
+  width: 94%;
+  height: 6.48533rem;
+  margin: 0 3%;
+  position: absolute;
+  top: 1.74933rem;
+  background: white;
+}
+/* line 19, ../sass/index.scss */
+.mobile-serve .top .info-box .t-box {
+  height: 1.83467rem;
+  margin: 1.10933rem 0.64rem;
+}
+/* line 22, ../sass/index.scss */
+.mobile-serve .top .info-box .t-box img {
+  width: 1.83467rem;
+  height: 1.83467rem;
+  border-radius: 50%;
+}
+/* line 27, ../sass/index.scss */
+.mobile-serve .top .info-box .t-box div {
+  width: 80%;
+  height: 100%;
+}
+/* line 30, ../sass/index.scss */
+.mobile-serve .top .info-box .t-box div p:first-child {
+  color: #565555;
+  font-size: 0.59733rem;
+}
+/* line 34, ../sass/index.scss */
+.mobile-serve .top .info-box .t-box div p:last-child {
+  color: #939393;
+  font-size: 0.512rem;
+}
+/* line 40, ../sass/index.scss */
+.mobile-serve .top .info-box .b-box {
+  padding: 0 0.72533rem;
+}
+/* line 42, ../sass/index.scss */
+.mobile-serve .top .info-box .b-box button {
+  width: 6.4rem;
+  height: 1.6rem;
+  border-radius: 0.128rem;
+  font-size: 0.59733rem;
+  color: white;
+}
+/* line 48, ../sass/index.scss */
+.mobile-serve .top .info-box .b-box button img {
+  width: 1.13067rem;
+  height: 1.13067rem;
+}
+/* line 53, ../sass/index.scss */
+.mobile-serve .top .info-box .b-box .tel-btn {
+  background: -webkit-linear-gradient(#00d165, #01c046);
+  background: -o-linear-gradient(#00d165, #01c046);
+  background: -moz-linear-gradient(#00d165, #01c046);
+  background: linear-gradient(#00d165, #01c046);
+}
+/* line 59, ../sass/index.scss */
+.mobile-serve .top .info-box .b-box .in-btn {
+  background: -webkit-linear-gradient(#ff8205, #ff6c16);
+  background: -o-linear-gradient(#ff8205, #ff6c16);
+  background: -moz-linear-gradient(#ff8205, #ff6c16);
+  background: linear-gradient(#ff8205, #ff6c16);
+}
+/* line 68, ../sass/index.scss */
+.mobile-serve .serve-wrap {
+  width: 100%;
+  height: 14.54933rem;
+  background-image: url("../images/t-bg.png");
+  background-size: contain;
+}
+/* line 73, ../sass/index.scss */
+.mobile-serve .serve-wrap p {
+  text-align: center;
+}
+/* line 76, ../sass/index.scss */
+.mobile-serve .serve-wrap .title {
+  font-size: 0.64rem;
+  color: white;
+  padding-top: 1.06667rem;
+}
+/* line 81, ../sass/index.scss */
+.mobile-serve .serve-wrap .tit {
+  font-size: 0.55467rem;
+  color: #a4b1bb;
+  padding: 0.74667rem 0 0.896rem 0;
+}
+/* line 86, ../sass/index.scss */
+.mobile-serve .serve-wrap .content {
+  padding: 0 3%;
+  width: 94%;
+  height: 9.728rem;
+  margin: 0 3%;
+  background: white;
+  overflow-y: scroll;
+}
+/* line 93, ../sass/index.scss */
+.mobile-serve .serve-wrap .content li {
+  padding: 0.55467rem 0;
+}
+/* line 95, ../sass/index.scss */
+.mobile-serve .serve-wrap .content li .l-box {
+  padding-left: 0.64rem;
+}
+/* line 97, ../sass/index.scss */
+.mobile-serve .serve-wrap .content li .l-box img {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+/* line 101, ../sass/index.scss */
+.mobile-serve .serve-wrap .content li .l-box p {
+  font-size: 0.59733rem;
+  color: #2a3356;
+}
+/* line 106, ../sass/index.scss */
+.mobile-serve .serve-wrap .content li .r-box {
+  width: 60%;
+  padding-top: 0.55467rem;
+}
+/* line 109, ../sass/index.scss */
+.mobile-serve .serve-wrap .content li .r-box img {
+  margin-right: 0.21333rem;
+}
+/* line 112, ../sass/index.scss */
+.mobile-serve .serve-wrap .content li .r-box .t-main {
+  color: #ef905f;
+}
+/* line 115, ../sass/index.scss */
+.mobile-serve .serve-wrap .content li .r-box table {
+  border: 1px solid #bfbfbf;
+  font-size: 0.512rem;
+}
+/* line 119, ../sass/index.scss */
+.mobile-serve .serve-wrap .content li .r-box tr, .mobile-serve .serve-wrap .content li .r-box td {
+  border: 1px solid #bfbfbf;
+  padding: 0.27733rem;
+}
+/* line 130, ../sass/index.scss */
+.mobile-serve .intro-wrap .head {
+  height: 3.328rem;
+  background: white;
+  text-align: center;
+}
+/* line 134, ../sass/index.scss */
+.mobile-serve .intro-wrap .head p {
+  padding-top: 1.06667rem;
+  padding-bottom: 0.53333rem;
+  font-size: 0.68267rem;
+  color: #000;
+}
+/* line 140, ../sass/index.scss */
+.mobile-serve .intro-wrap .head .line {
+  width: 1.10933rem;
+  height: 0.04267rem;
+  background: #0076ff;
+  margin: 0 auto;
+}
+/* line 147, ../sass/index.scss */
+.mobile-serve .intro-wrap img {
+  width: 100%;
+  height: 14.144rem;
+}
+/* line 152, ../sass/index.scss */
+.mobile-serve .divi {
+  width: 100%;
+  height: 0.512rem;
+  background: #f1f0f1;
+}
+/* line 158, ../sass/index.scss */
+.mobile-serve .fengxian-wrap .head {
+  text-align: center;
+  font-size: 0.68267rem;
+  color: #000;
+  padding: 0.78933rem 0.64rem;
+  position: relative;
+}
+/* line 164, ../sass/index.scss */
+.mobile-serve .fengxian-wrap .head .m-pic {
+  width: 1.49333rem;
+  height: 1.49333rem;
+  border-radius: 50%;
+}
+/* line 169, ../sass/index.scss */
+.mobile-serve .fengxian-wrap .head .tesePic {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 2.51733rem;
+  height: 2.51733rem;
+}
+/* line 177, ../sass/index.scss */
+.mobile-serve .fengxian-wrap .line {
+  width: 94%;
+  height: 1px;
+  background: #f0eeee;
+  margin: 0 auto;
+}
+/* line 178, ../sass/index.scss */
+.mobile-serve .fengxian-wrap .text-cont {
+  position: relative;
+  margin: 0.64rem;
+  padding-bottom: 0.64rem;
+  height: 6.4rem;
+  color: #bbb7b7;
+  font-size: 0.68267rem;
+}
+/* line 185, ../sass/index.scss */
+.mobile-serve .fengxian-wrap .text-cont li {
+  position: absolute;
+}
+/* line 187, ../sass/index.scss */
+.mobile-serve .fengxian-wrap .text-cont li:nth-child(1) {
+  top: 0;
+  left: 0.064rem;
+  font-size: 0.68267rem;
+  color: #696969;
+}
+/* line 193, ../sass/index.scss */
+.mobile-serve .fengxian-wrap .text-cont li:nth-child(2) {
+  top: 0.85333rem;
+  right: 0.064rem;
+  font-size: 0.68267rem;
+  color: #696969;
+}
+/* line 199, ../sass/index.scss */
+.mobile-serve .fengxian-wrap .text-cont li:nth-child(3) {
+  top: 1.92rem;
+  right: 4.69333rem;
+  font-size: 0.832rem;
+  color: #fd5234;
+}
+/* line 205, ../sass/index.scss */
+.mobile-serve .fengxian-wrap .text-cont li:nth-child(4) {
+  top: 3.30667rem;
+  left: 0.85333rem;
+}
+/* line 209, ../sass/index.scss */
+.mobile-serve .fengxian-wrap .text-cont li:nth-child(5) {
+  top: 3.84rem;
+  right: 1.06667rem;
+}
+/* line 214, ../sass/index.scss */
+.mobile-serve .fengxian-wrap .text-cont li:nth-child(6) {
+  top: 5.248rem;
+  left: 1.152rem;
+  font-size: 0.72533rem;
+}
+/* line 219, ../sass/index.scss */
+.mobile-serve .fengxian-wrap .text-cont li span {
+  color: #f58471;
+}
+/* line 225, ../sass/index.scss */
+.mobile-serve .buy-wrap {
+  height: 8.04267rem;
+  background: #f5f5f5;
+}
+/* line 228, ../sass/index.scss */
+.mobile-serve .buy-wrap p {
+  text-align: center;
+}
+/* line 231, ../sass/index.scss */
+.mobile-serve .buy-wrap p:nth-child(1) {
+  font-size: 0.55467rem;
+  color: #858687;
+  padding-top: 1.024rem;
+}
+/* line 236, ../sass/index.scss */
+.mobile-serve .buy-wrap p:nth-child(2) {
+  font-size: 0.768rem;
+  color: #2c3e50;
+  padding-top: 0.68267rem;
+}
+/* line 241, ../sass/index.scss */
+.mobile-serve .buy-wrap p:nth-child(3) {
+  font-size: 0.512rem;
+  color: #204fa1;
+  padding: 0.68267rem 0;
+}
+/* line 246, ../sass/index.scss */
+.mobile-serve .buy-wrap img {
+  width: 0.46933rem;
+  height: 0.46933rem;
+}
+/* line 250, ../sass/index.scss */
+.mobile-serve .buy-wrap .buy-btn {
+  width: 34%;
+  height: 1.62133rem;
+  line-height: 1.62133rem;
+  text-align: center;
+  margin: 0 33%;
+  border-radius: 0.81067rem;
+  color: white;
+  background: #f35437;
+  font-size: 0.64rem;
+  margin-bottom: 1.28rem;
+}
+/* line 264, ../sass/index.scss */
+.mobile-serve .adver-wrap .head {
+  height: 4.13867rem;
+}
+/* line 266, ../sass/index.scss */
+.mobile-serve .adver-wrap .head p {
+  text-align: center;
+}
+/* line 268, ../sass/index.scss */
+.mobile-serve .adver-wrap .head p:first-child {
+  font-size: 0.68267rem;
+  color: #303e4e;
+  padding-top: 1.17333rem;
+}
+/* line 273, ../sass/index.scss */
+.mobile-serve .adver-wrap .head p:last-child {
+  font-size: 0.59733rem;
+  color: #858687;
+  padding-top: 0.59733rem;
+}
+/* line 280, ../sass/index.scss */
+.mobile-serve .adver-wrap img {
+  width: 100%;
+  height: 10.19733rem;
+}
+/* line 287, ../sass/index.scss */
+.mobile-serve .zixun-wrap .aver {
+  width: 68%;
+  height: 1.45067rem;
+  margin: 1.17333rem 16%;
+  border: 1px solid #e63736;
+}
+/* line 292, ../sass/index.scss */
+.mobile-serve .zixun-wrap .aver p {
+  width: 98%;
+  height: 1.23733rem;
+  line-height: 1.23733rem;
+  text-align: center;
+  font-size: 0.55467rem;
+  background: #e63736;
+  color: white;
+}
+/* line 300, ../sass/index.scss */
+.mobile-serve .zixun-wrap .aver p span {
+  font-size: 0.72533rem;
+}
+/* line 305, ../sass/index.scss */
+.mobile-serve .zixun-wrap .reject {
+  color: #e63736;
+  text-align: center;
+  font-size: 0.53333rem;
+}
+/* line 309, ../sass/index.scss */
+.mobile-serve .zixun-wrap .reject span {
+  border-bottom: 1px solid #e63736;
+  text-decoration: line-through;
+  padding: 0 0.10667rem;
+}
+/* line 313, ../sass/index.scss */
+.mobile-serve .zixun-wrap .reject span:first-child {
+  font-size: 0.68267rem;
+}
+/* line 318, ../sass/index.scss */
+.mobile-serve .zixun-wrap .zixun-btn {
+  width: 34%;
+  height: 1.62133rem;
+  line-height: 1.62133rem;
+  text-align: center;
+  margin: 0.896rem 33% 0 33%;
+  border-radius: 0.81067rem;
+  color: white;
+  background: #f35437;
+  font-size: 0.64rem;
+  margin-bottom: 1.152rem;
+}
+/* line 332, ../sass/index.scss */
+.mobile-serve .contrast-wrap {
+  background: #f1f0f1;
+  padding: 3%;
+}
+/* line 335, ../sass/index.scss */
+.mobile-serve .contrast-wrap .box {
+  border: 1px solid #e6e6e6;
+  background: white;
+}
+/* line 338, ../sass/index.scss */
+.mobile-serve .contrast-wrap .box ul {
+  width: 50%;
+  font-size: 0.512rem;
+  color: #474747;
+}
+/* line 342, ../sass/index.scss */
+.mobile-serve .contrast-wrap .box ul li {
+  height: 2.304rem;
+  line-height: 2.304rem;
+  border-bottom: 1px solid #e6e6e6;
+  text-align: center;
+}
+/* line 348, ../sass/index.scss */
+.mobile-serve .contrast-wrap .box ul li.head {
+  font-size: 0.64rem;
+  height: 1.51467rem;
+  line-height: 1.51467rem;
+  background: #5dc0f2;
+  color: white;
+}
+/* line 358, ../sass/index.scss */
+.mobile-serve .contrast-wrap .box .trandision li {
+  border-right: 1px solid #e6e6e6;
+}
+/* line 361, ../sass/index.scss */
+.mobile-serve .contrast-wrap .box .trandision li.head {
+  background: #5dc0f2;
+}
+/* line 366, ../sass/index.scss */
+.mobile-serve .contrast-wrap .box .yft li.head {
+  background: #2a3356;
+}
+/* line 371, ../sass/index.scss */
+.mobile-serve .contrast-wrap .bot-box {
+  background: white;
+  padding: 3%;
+  margin-top: 3%;
+}
+/* line 375, ../sass/index.scss */
+.mobile-serve .contrast-wrap .bot-box .member {
+  background: #f5f5f5;
+  padding: 0.74667rem;
+  margin: 3%;
+  font-size: 0.59733rem;
+  color: #474747;
+}
+/* line 381, ../sass/index.scss */
+.mobile-serve .contrast-wrap .bot-box .member p {
+  line-height: 1.06667rem;
+}
+/* line 384, ../sass/index.scss */
+.mobile-serve .contrast-wrap .bot-box .member span {
+  color: #fd5234;
+}
+/* line 388, ../sass/index.scss */
+.mobile-serve .contrast-wrap .bot-box .title {
+  font-size: 0.64rem;
+  color: #000000;
+  text-align: center;
+  padding-top: 0.96rem;
+  padding-bottom: 0.93867rem;
+  letter-spacing: 0.064rem;
+}
+/* line 396, ../sass/index.scss */
+.mobile-serve .contrast-wrap .bot-box .cont {
+  padding-bottom: 0.29867rem;
+}
+/* line 398, ../sass/index.scss */
+.mobile-serve .contrast-wrap .bot-box .cont li {
+  width: 40%;
+  border: 1px dashed #fd5234;
+  color: #fd5234;
+  height: 1.57867rem;
+  line-height: 1.57867rem;
+  text-align: center;
+  font-size: 0.59733rem;
+}
+/* line 407, ../sass/index.scss */
+.mobile-serve .contrast-wrap .bot-box .cont li:nth-of-type(odd) {
+  margin: 0.34133rem 3% 0.34133rem 6%;
+}
+/* line 408, ../sass/index.scss */
+.mobile-serve .contrast-wrap .bot-box .cont li:nth-of-type(even) {
+  margin: 0.34133rem 6% 0.34133rem 3%;
+}
+/* line 413, ../sass/index.scss */
+.mobile-serve .any {
+  height: 6.61333rem;
+  background: #21c2f8;
+}
+/* line 416, ../sass/index.scss */
+.mobile-serve .any p {
+  text-align: center;
+  color: white;
+  font-size: 0.768rem;
+}
+/* line 420, ../sass/index.scss */
+.mobile-serve .any p:first-child {
+  padding: 0.96rem 0 0.34133rem 0;
+}
+/* line 423, ../sass/index.scss */
+.mobile-serve .any p span {
+  font-size: 1.06667rem;
+}
+/* line 427, ../sass/index.scss */
+.mobile-serve .any div {
+  width: 50%;
+  height: 1.408rem;
+  line-height: 1.408rem;
+  text-align: center;
+  margin: 0.53333rem auto;
+  border: 1px solid white;
+  color: white;
+  font-size: 0.64rem;
+  border-radius: 0.10667rem;
+}
+/* line 441, ../sass/index.scss */
+.mobile-serve .map-wrap .map {
+  width: 100%;
+  height: 13.29067rem;
+}
+/* line 445, ../sass/index.scss */
+.mobile-serve .map-wrap .cont {
+  padding: 0.98133rem 0.896rem;
+}
+/* line 447, ../sass/index.scss */
+.mobile-serve .map-wrap .cont li {
+  color: #3e4c5c;
+  font-size: 0.512rem;
+  padding-bottom: 0.42667rem;
+}
+/* line 451, ../sass/index.scss */
+.mobile-serve .map-wrap .cont li span {
+  font-size: 0.53333rem;
+  color: #222323;
+}
+/* line 457, ../sass/index.scss */
+.mobile-serve .map-wrap .start-btn {
+  width: 90%;
+  margin: 0 5%;
+  height: 1.62133rem;
+  line-height: 1.62133rem;
+  text-align: center;
+  color: white;
+  background: #f35437;
+  font-size: 0.64rem;
+  border-radius: 0.10667rem;
+  margin-bottom: 1.06667rem;
+}
+/* line 471, ../sass/index.scss */
+.mobile-serve .t-bottom {
+  width: 100%;
+  height: 2.24rem;
+  line-height: 2.24rem;
+  text-align: center;
+  background: #f1f0f1;
+  color: #d2d0d0;
+  font-size: 0.59733rem;
+  margin-bottom: 2.38933rem;
+}

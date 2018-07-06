@@ -1,0 +1,396 @@
+@charset "UTF-8";
+/* line 5, ../sass/laywer-remind.scss */
+.mobile-remind {
+  /*头部*/
+  /*放假通知*/
+  /*消息提醒内容*/
+}
+/* line 7, ../sass/laywer-remind.scss */
+.mobile-remind .top {
+  width: 100%;
+  height: 7.53067rem;
+  background-image: url("../images/top-bg.png");
+  background-color: #f1f0f1;
+  background-size: cover;
+}
+/* line 13, ../sass/laywer-remind.scss */
+.mobile-remind .top .info-box {
+  width: 92%;
+  height: 4.90667rem;
+  margin: 0 4%;
+  padding: 0 0.64rem;
+  position: absolute;
+  top: 2.64533rem;
+  background: white;
+  box-shadow: 0 0 0.29867rem 0.08533rem rgba(51, 51, 51, 0.1);
+}
+/* line 22, ../sass/laywer-remind.scss */
+.mobile-remind .top .info-box img {
+  width: 1.83467rem;
+  height: 1.83467rem;
+  border-radius: 50%;
+  margin-top: 1.06667rem;
+}
+/* line 28, ../sass/laywer-remind.scss */
+.mobile-remind .top .info-box .r-cont {
+  margin-top: 1.06667rem;
+  width: 83%;
+}
+/* line 31, ../sass/laywer-remind.scss */
+.mobile-remind .top .info-box .r-cont .c-tit {
+  font-size: 0.68267rem;
+  color: #000000;
+  padding-bottom: 0.256rem;
+}
+/* line 36, ../sass/laywer-remind.scss */
+.mobile-remind .top .info-box .r-cont .c-con {
+  font-size: 0.59733rem;
+  color: #565555;
+}
+/* line 39, ../sass/laywer-remind.scss */
+.mobile-remind .top .info-box .r-cont .c-con span {
+  color: #fd5234;
+}
+/* line 46, ../sass/laywer-remind.scss */
+.mobile-remind .top.vacation {
+  background-color: white;
+}
+/* line 50, ../sass/laywer-remind.scss */
+.mobile-remind .inform-wrap {
+  position: relative;
+  background: #fdf9be;
+  margin: 4%;
+  padding: 0.64rem 0.72533rem;
+}
+/* line 55, ../sass/laywer-remind.scss */
+.mobile-remind .inform-wrap .i-title {
+  font-size: 0.68267rem;
+  line-height: 1.024rem;
+  padding-bottom: 0.32rem;
+  color: #704706;
+}
+/* line 60, ../sass/laywer-remind.scss */
+.mobile-remind .inform-wrap .i-title img {
+  width: 0.896rem;
+  height: 0.96rem;
+  margin-right: 0.23467rem;
+}
+/* line 66, ../sass/laywer-remind.scss */
+.mobile-remind .inform-wrap .i-cont {
+  color: #704706;
+  font-size: 0.59733rem;
+  line-height: 1.024rem;
+}
+/* line 71, ../sass/laywer-remind.scss */
+.mobile-remind .inform-wrap .s-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 1.024rem;
+  height: 1.06667rem;
+}
+/* line 80, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap {
+  padding: 0 4% 3.02933rem 4%;
+  background: #f1f0f1;
+}
+/* line 84, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .m-title {
+  color: #000000;
+  font-size: 0.59733rem;
+  padding: 0.85333rem 0;
+}
+/* line 88, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .m-title span {
+  color: #fd5234;
+}
+/* line 93, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont {
+  position: relative;
+  background: white;
+}
+/* line 96, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont .example {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1.792rem;
+  height: 1.792rem;
+}
+/* line 103, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont .w-head {
+  padding: 0.768rem 0.64rem;
+}
+/* line 105, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont .w-head .l-box {
+  font-size: 0.68267rem;
+}
+/* line 107, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont .w-head .l-box img {
+  width: 1.49333rem;
+  height: 1.49333rem;
+  border-radius: 50%;
+}
+/* line 112, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont .w-head .l-box span {
+  padding-left: 0.46933rem;
+}
+/* line 118, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont .w-head .r-box span {
+  display: inline-block;
+  padding: 0.21333rem 0.14933rem;
+  margin-right: 0.21333rem;
+  border: 2px solid  #fd5234;
+  color: #fd5234;
+  font-size: 0.512rem;
+  border-radius: 0.10667rem;
+}
+/* line 127, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont .w-head .r-box img {
+  width: 0.46933rem;
+  height: 0.42667rem;
+}
+/* line 133, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont .line {
+  width: 92%;
+  height: 1px;
+  background-color: #f0eeee;
+  margin: 0 4%;
+}
+/* line 139, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont .tishi-cont {
+  padding: 0 0.68267rem;
+}
+/* line 141, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont .tishi-cont > p {
+  font-size: 0.59733rem;
+}
+/* line 143, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont .tishi-cont > p:nth-child(1) {
+  color: #474747;
+  padding: 0.74667rem 0;
+}
+/* line 147, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont .tishi-cont > p:nth-child(2) {
+  color: #474747;
+}
+/* line 150, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont .tishi-cont > p:nth-child(3) {
+  line-height: 1.024rem;
+  color: #fd5234;
+  padding: 0.59733rem 0;
+}
+/* line 156, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont .tishi-cont .same {
+  padding: 0 0.768rem;
+  background-color: #fef8da;
+}
+/* line 159, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont .tishi-cont .same p {
+  height: 3.136rem;
+  font-family: PingFang-SC-Medium;
+  font-size: 0.59733rem;
+  line-height: 1.024rem;
+  color: #474747;
+}
+/* line 167, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont .tishi-cont .btn {
+  margin-top: 1.00267rem;
+  padding-bottom: 1.00267rem;
+}
+/* line 170, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont .tishi-cont .btn button {
+  width: 6.4rem;
+  height: 1.62133rem;
+  font-size: 0.59733rem;
+  border-radius: 0.128rem;
+}
+/* line 177, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont .tishi-cont .btn .call-btn {
+  color: #ffffff;
+  background-image: linear-gradient(-90deg, #01bf45 0%, #00d267 100%), linear-gradient(#0cbe2a, #0cbe2a);
+}
+/* line 178, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont .tishi-cont .btn .call-btn img {
+  width: 1.10933rem;
+  height: 1.10933rem;
+}
+/* line 187, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont .tishi-cont .btn .yi-btn {
+  border: 2px solid #b3b1b1;
+  color: #a09e9e;
+}
+/* line 195, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont-bot {
+  position: relative;
+  margin-top: 0.46933rem;
+  background: white;
+}
+/* line 199, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont-bot .example {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1.792rem;
+  height: 1.792rem;
+}
+/* line 206, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont-bot .w-head {
+  padding: 0.768rem 0.64rem;
+}
+/* line 208, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont-bot .w-head .l-box {
+  font-size: 0.68267rem;
+}
+/* line 210, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont-bot .w-head .l-box img {
+  width: 1.49333rem;
+  height: 1.49333rem;
+  border-radius: 50%;
+}
+/* line 215, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont-bot .w-head .l-box span {
+  padding-left: 0.46933rem;
+}
+/* line 219, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont-bot .w-head p {
+  height: 0.896rem;
+  line-height: 0.896rem;
+  text-align: center;
+  border: 2px solid  #fd5234;
+  color: #fd5234;
+  font-size: 0.512rem;
+  border-radius: 0.10667rem;
+  margin-right: 0.42667rem;
+  padding: 0 0.21333rem;
+}
+/* line 229, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont-bot .w-head p span {
+  padding-right: 0.14933rem;
+}
+/* line 234, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont-bot .line {
+  width: 92%;
+  height: 1px;
+  background-color: #f0eeee;
+  margin: 0 4%;
+}
+/* line 240, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont-bot .tishi-cont {
+  padding: 0 0.68267rem;
+}
+/* line 242, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont-bot .tishi-cont > p {
+  font-size: 0.59733rem;
+  color: #474747;
+}
+/* line 245, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont-bot .tishi-cont > p:nth-child(1) {
+  padding: 0.74667rem 0;
+}
+/* line 248, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont-bot .tishi-cont > p:nth-child(2) {
+  line-height: 1.06667rem;
+}
+/* line 251, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont-bot .tishi-cont > p span {
+  color: #fd5234;
+}
+/* line 255, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont-bot .tishi-cont .do-btn {
+  width: 100%;
+  height: 1.792rem;
+  line-height: 1.792rem;
+  text-align: center;
+  margin-top: 1.024rem;
+  background-color: #fef8da;
+  font-size: 0.59733rem;
+  color: #fd5234;
+}
+/* line 265, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont-bot .tishi-cont .tit {
+  color: #939393;
+  font-size: 0.512rem;
+  padding: 0.768rem 0;
+}
+/* line 269, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont-bot .tishi-cont .tit span {
+  color: #0087ff;
+}
+/* line 273, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont-bot .tishi-cont .btn {
+  padding-bottom: 1.00267rem;
+}
+/* line 275, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont-bot .tishi-cont .btn button {
+  width: 6.4rem;
+  height: 1.62133rem;
+  line-height: 1.62133rem;
+  text-align: center;
+  font-size: 0.59733rem;
+  border-radius: 0.17067rem;
+}
+/* line 284, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont-bot .tishi-cont .btn .zhuan-btn {
+  border: 1px solid #0089ff;
+  color: #0089ff;
+}
+/* line 285, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont-bot .tishi-cont .btn .zhuan-btn img {
+  width: 0.896rem;
+  height: 0.78933rem;
+  margin-right: 0.21333rem;
+}
+/* line 293, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .w-cont-bot .tishi-cont .btn .yi-btn {
+  border: 1px solid #b3b1b1;
+  color: #a09e9e;
+}
+/* line 301, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .classPic {
+  margin-top: 0.46933rem;
+  height: 10.92267rem;
+  width: 100%;
+}
+/* line 307, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .sum-wrap {
+  background: white;
+  margin-top: 0.46933rem;
+  padding: 0 0.72533rem;
+}
+/* line 311, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .sum-wrap .title {
+  color: #474747;
+  font-size: 0.59733rem;
+  padding-top: 1.38667rem;
+  line-height: 1.10933rem;
+}
+/* line 316, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .sum-wrap .title .t-main {
+  font-size: 0.68267rem;
+  color: #ff641a;
+}
+/* line 321, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .sum-wrap .reward {
+  padding: 1.45067rem 0;
+}
+/* line 323, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .sum-wrap .reward li {
+  width: 49%;
+}
+/* line 325, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .sum-wrap .reward li img {
+  width: 1.024rem;
+  height: 1.664rem;
+}
+/* line 329, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .sum-wrap .reward li p {
+  font-size: 0.55467rem;
+  line-height: 0.768rem;
+  margin-top: 0.256rem;
+  color: #474747;
+}
+/* line 335, ../sass/laywer-remind.scss */
+.mobile-remind .wait-wrap .sum-wrap .reward li:first-child {
+  border-right: 2px solid #f2f2f2;
+}
