@@ -348,49 +348,49 @@ ol, ul {
 }
 /* line 183, ../sass/common.scss */
 .bottom .m-serve div {
-  background: url("../images/serve.png") 0 0 no-repeat;
+  background: url("../img/qywx/serve.png") 0 0 no-repeat;
   background-size: contain;
   margin: 0 auto;
 }
 /* line 187, ../sass/common.scss */
 .bottom .m-serve.cur div {
-  background: url("../images/aserve.png") 0 0 no-repeat;
+  background: url("../img/qywx/aserve.png") 0 0 no-repeat;
   background-size: contain;
   margin: 0 auto;
 }
 /* line 191, ../sass/common.scss */
 .bottom .m-remind div {
-  background: url("../images/remind.png") 0 0 no-repeat;
+  background: url("../img/qywx/remind.png") 0 0 no-repeat;
   background-size: contain;
   margin: 0 auto;
 }
 /* line 195, ../sass/common.scss */
 .bottom .m-remind.cur div {
-  background: url("../images/aremind.png") 0 0 no-repeat;
+  background: url("../img/qywx/aremind.png") 0 0 no-repeat;
   background-size: contain;
   margin: 0 auto;
 }
 /* line 199, ../sass/common.scss */
 .bottom .m-danger div {
-  background: url("../images/danger.png") 0 0 no-repeat;
+  background: url("../img/qywx/danger.png") 0 0 no-repeat;
   background-size: contain;
   margin: 0 auto;
 }
 /* line 203, ../sass/common.scss */
 .bottom .m-danger.cur div {
-  background: url("../images/adanger.png") 0 0 no-repeat;
+  background: url("../img/qywx/adanger.png") 0 0 no-repeat;
   background-size: contain;
   margin: 0 auto;
 }
 /* line 207, ../sass/common.scss */
 .bottom .m-manage div {
-  background: url("../images/manage.png") 0 0 no-repeat;
+  background: url("../img/qywx/manage.png") 0 0 no-repeat;
   background-size: contain;
   margin: 0 auto;
 }
 /* line 211, ../sass/common.scss */
 .bottom .m-manage.cur div {
-  background: url("../images/amanage.png") 0 0 no-repeat;
+  background: url("../img/qywx/amanage.png") 0 0 no-repeat;
   background-size: contain;
   margin: 0 auto;
 }

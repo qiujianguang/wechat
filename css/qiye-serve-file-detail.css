@@ -1,0 +1,836 @@
+@charset "UTF-8";
+/* line 5, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail {
+  /*头部*/
+}
+/* line 7, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .top {
+  width: 100%;
+  height: 8.74667rem;
+  background-image: url("../img/qywx/bw-bg.png");
+  background-size: cover;
+}
+/* line 12, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .top .info-box {
+  width: 92%;
+  height: 6.48533rem;
+  margin: 0 4%;
+  position: absolute;
+  top: 1.74933rem;
+  background: white;
+}
+/* line 19, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .top .info-box .t-box {
+  height: 1.83467rem;
+  margin: 1.10933rem 0.64rem;
+}
+/* line 22, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .top .info-box .t-box img {
+  width: 1.83467rem;
+  height: 1.83467rem;
+  border-radius: 50%;
+}
+/* line 27, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .top .info-box .t-box div {
+  width: 80%;
+  height: 100%;
+}
+/* line 30, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .top .info-box .t-box div p:first-child {
+  color: #565555;
+  font-size: 0.59733rem;
+}
+/* line 34, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .top .info-box .t-box div p:last-child {
+  color: #939393;
+  font-size: 0.512rem;
+}
+/* line 40, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .top .info-box .b-box {
+  padding: 0 0.72533rem;
+}
+/* line 42, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .top .info-box .b-box button {
+  width: 6.4rem;
+  height: 1.6rem;
+  border-radius: 0.128rem;
+  font-size: 0.59733rem;
+  color: white;
+}
+/* line 48, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .top .info-box .b-box button img {
+  width: 1.13067rem;
+  height: 1.13067rem;
+}
+/* line 53, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .top .info-box .b-box .tel-btn {
+  background: -webkit-linear-gradient(left, #00d165, #01c046);
+  background: -o-linear-gradient(left, #00d165, #01c046);
+  background: -moz-linear-gradient(left, #00d165, #01c046);
+  background: linear-gradient(left, #00d165, #01c046);
+}
+/* line 59, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .top .info-box .b-box .in-btn {
+  background: -webkit-linear-gradient(left, #ff8205, #ff6c16);
+  background: -o-linear-gradient(left, #ff8205, #ff6c16);
+  background: -moz-linear-gradient(left, #ff8205, #ff6c16);
+  background: linear-gradient(left, #ff8205, #ff6c16);
+}
+/* line 69, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap {
+  background: #f1f0f1;
+  padding: 0 4% 3.02933rem;
+}
+/* line 72, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .title {
+  background: #ffffff;
+  padding: 0 0.64rem;
+  height: 2.13333rem;
+  line-height: 2.13333rem;
+  font-size: 0.68267rem;
+  color: #000000;
+  border-bottom: 2px solid #f0eeee;
+}
+/* line 80, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .title .m-img {
+  width: 0.64rem;
+  height: 0.64rem;
+  border-radius: 0.10667rem;
+  margin-right: 0.34133rem;
+}
+/* line 88, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap {
+  background: #ffffff;
+  padding: 1.06667rem 0.64rem;
+}
+/* line 92, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .ht-item {
+  margin-bottom: 1.06667rem;
+}
+/* line 94, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .ht-item p {
+  color: #7f7f7f;
+  font-size: 0.59733rem;
+  padding-bottom: 0.85333rem;
+}
+/* line 98, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .ht-item p span {
+  color: #474747;
+  padding-left: 0.128rem;
+}
+/* line 102, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .ht-item p .t-main {
+  color: #fe3824;
+}
+/* line 106, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .ht-item .tx-cont, .mobile-serve-file-detail .out-wrap .inner-wrap .ht-item .gt-record {
+  line-height: 1.024rem;
+}
+/* line 109, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .ht-item .check-btn {
+  width: 100%;
+  height: 1.62133rem;
+  line-height: 1.62133rem;
+  text-align: center;
+  background: -webkit-linear-gradient(left, #00a2ff, #008aff);
+  background: -o-linear-gradient(left, #00a2ff, #008aff);
+  background: -moz-linear-gradient(left, #00a2ff, #008aff);
+  background: linear-gradient(left, #00a2ff, #008aff);
+  color: #ffffff;
+  font-size: 0.59733rem;
+}
+/* line 123, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .answer-item {
+  margin-bottom: 1.28rem;
+}
+/* line 125, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .answer-item .top-box {
+  padding: 0.96rem 0.64rem;
+  background-color: #f0f5fa;
+}
+/* line 128, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .answer-item .top-box p {
+  color: #7b8697;
+  font-size: 0.59733rem;
+}
+/* line 132, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .answer-item .top-box p:not(:last-child) {
+  padding-bottom: 0.896rem;
+}
+/* line 135, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .answer-item .top-box p .s-black {
+  color: #000000;
+}
+/* line 138, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .answer-item .top-box p .s-gray {
+  color: #7f7f7f;
+}
+/* line 142, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .answer-item .top-box .tit {
+  font-size: 0.68267rem;
+  color: #000000;
+}
+/* line 148, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .answer-item .record {
+  padding: 1.19467rem 0.64rem;
+}
+/* line 150, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .answer-item .record li {
+  color: #474747;
+  font-size: 0.59733rem;
+  line-height: 1.024rem;
+}
+/* line 154, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .answer-item .record li:not(:last-child) {
+  padding-bottom: 0.96rem;
+}
+/* line 157, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .answer-item .record li span {
+  color: #7f7f7f;
+  padding-right: 0.32rem;
+}
+/* line 164, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .answer-item .ing-btn {
+  display: block;
+  width: 6.4rem;
+  height: 1.62133rem;
+  text-align: center;
+  border-radius: 0.17067rem;
+  border: solid 3px #0076ff;
+  color: #0076ff;
+  font-size: 0.59733rem;
+  margin: 0 auto 1.28rem;
+}
+/* line 175, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .answer-item .lx-box {
+  font-size: 0.59733rem;
+}
+/* line 177, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .answer-item .lx-box p {
+  color: #474747;
+}
+/* line 180, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .answer-item .lx-box .contact-btn {
+  width: 6.4rem;
+  height: 1.62133rem;
+  text-align: center;
+  border-radius: 0.17067rem;
+  color: #ffffff;
+  font-size: 0.59733rem;
+  background: -webkit-linear-gradient(left, #ff8205, #ff6c16);
+  background: -o-linear-gradient(left, #ff8205, #ff6c16);
+  background: -moz-linear-gradient(left, #ff8205, #ff6c16);
+  background: linear-gradient(left, #ff8205, #ff6c16);
+}
+/* line 194, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .answer-item .endtime {
+  padding-left: 0.64rem;
+  color: #7f7f7f;
+  font-size: 0.59733rem;
+}
+/* line 199, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .answer-item .check-btn {
+  width: 100%;
+  height: 1.62133rem;
+  text-align: center;
+  border-radius: 0.17067rem;
+  color: #ffffff;
+  font-size: 0.59733rem;
+  margin-top: 1.28rem;
+  background: -webkit-linear-gradient(left, #00a2ff, #008aff);
+  background: -o-linear-gradient(left, #00a2ff, #008aff);
+  background: -moz-linear-gradient(left, #00a2ff, #008aff);
+  background: linear-gradient(left, #00a2ff, #008aff);
+}
+/* line 213, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .answer-item .btn-box {
+  margin-top: 1.28rem;
+}
+/* line 215, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .answer-item .btn-box button {
+  width: 6.4rem;
+  height: 1.62133rem;
+  text-align: center;
+  border-radius: 0.17067rem;
+  font-size: 0.59733rem;
+}
+/* line 222, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .answer-item .btn-box .checkHt-btn {
+  border: solid 2px #008aff;
+  color: #008aff;
+}
+/* line 226, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .answer-item .btn-box .checkHt-btn.cur {
+  background: -webkit-linear-gradient(left, #00a2ff, #008aff);
+  background: -o-linear-gradient(left, #00a2ff, #008aff);
+  background: -moz-linear-gradient(left, #00a2ff, #008aff);
+  background: linear-gradient(left, #00a2ff, #008aff);
+  color: #ffffff;
+}
+/* line 233, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .answer-item .btn-box .set-btn {
+  border: solid 2px #ff6a16;
+  color: #ff6a16;
+}
+/* line 237, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .answer-item .btn-box .set-btn.cur {
+  border: solid 2px #fe3824;
+  color: #fe3824;
+}
+/* line 244, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .brand-item {
+  margin-bottom: 1.28rem;
+}
+/* line 246, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .brand-item .top-box {
+  padding: 0.96rem 0.64rem;
+  background-color: #f0f5fa;
+  position: relative;
+}
+/* line 250, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .brand-item .top-box p {
+  color: #7b8697;
+  font-size: 0.59733rem;
+}
+/* line 253, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .brand-item .top-box p:not(:last-child) {
+  padding-bottom: 0.896rem;
+}
+/* line 256, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .brand-item .top-box p .s-black {
+  color: #000000;
+}
+/* line 259, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .brand-item .top-box p .s-gray {
+  color: #7f7f7f;
+}
+/* line 263, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .brand-item .top-box .tit {
+  font-size: 0.68267rem;
+  color: #000000;
+}
+/* line 267, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .brand-item .top-box div {
+  position: absolute;
+  top: 47%;
+  left: 33%;
+  width: 6.4rem;
+  height: 1.49333rem;
+  line-height: 1.49333rem;
+  background-color: #f3f0f2;
+  border-radius: 0.17067rem;
+  opacity: 0.8;
+  font-size: 0.768rem;
+  transform: rotate(-10deg);
+  margin: 0 auto -1.00267rem;
+  text-align: center;
+}
+/* line 282, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .brand-item .top-box .w-hint {
+  color: #ff6b16;
+  border: solid 3px #f7a397;
+}
+/* line 286, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .brand-item .top-box .s-hint {
+  color: #db2416;
+  border: solid 3px #e58c88;
+}
+/* line 290, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .brand-item .top-box .f-hint {
+  color: #7f7f7f;
+  border: solid 3px #b7babc;
+}
+/* line 296, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .brand-item .record {
+  padding: 1.19467rem 0.64rem;
+}
+/* line 298, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .brand-item .record li {
+  color: #474747;
+  font-size: 0.59733rem;
+  line-height: 1.024rem;
+}
+/* line 302, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .brand-item .record li:not(:last-child) {
+  padding-bottom: 0.96rem;
+}
+/* line 305, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .brand-item .record li span {
+  color: #7f7f7f;
+  padding-right: 0.32rem;
+}
+/* line 312, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .brand-item .endtime {
+  padding-left: 0.64rem;
+  color: #7f7f7f;
+  font-size: 0.59733rem;
+}
+/* line 319, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .susong-item {
+  margin-bottom: 1.28rem;
+}
+/* line 321, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .susong-item .top-box {
+  padding: 0.96rem 0.64rem;
+  background-color: #f0f5fa;
+  position: relative;
+}
+/* line 325, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .susong-item .top-box p {
+  color: #7b8697;
+  font-size: 0.59733rem;
+}
+/* line 328, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .susong-item .top-box p:not(:last-child) {
+  padding-bottom: 0.896rem;
+}
+/* line 331, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .susong-item .top-box p .s-black {
+  color: #000000;
+}
+/* line 334, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .susong-item .top-box p .s-gray {
+  color: #7f7f7f;
+}
+/* line 338, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .susong-item .top-box .tit {
+  font-size: 0.68267rem;
+  color: #000000;
+}
+/* line 342, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .susong-item .top-box div {
+  position: absolute;
+  top: 34%;
+  left: 33%;
+  width: 6.4rem;
+  height: 1.49333rem;
+  line-height: 1.49333rem;
+  background-color: #f3f0f2;
+  border-radius: 0.17067rem;
+  opacity: 0.8;
+  font-size: 0.768rem;
+  transform: rotate(-10deg);
+  margin: 0 auto -1.00267rem;
+  text-align: center;
+}
+/* line 357, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .susong-item .top-box .s-hint {
+  color: #db2416;
+  border: solid 3px #e58c88;
+}
+/* line 361, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .susong-item .top-box .f-hint {
+  color: #7f7f7f;
+  border: solid 3px #b7babc;
+}
+/* line 367, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .susong-item .record {
+  padding: 1.19467rem 0.64rem;
+}
+/* line 369, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .susong-item .record li {
+  color: #474747;
+  font-size: 0.59733rem;
+  line-height: 1.024rem;
+}
+/* line 373, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .susong-item .record li:not(:last-child) {
+  padding-bottom: 0.96rem;
+}
+/* line 376, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .susong-item .record li span {
+  color: #7f7f7f;
+  padding-right: 0.32rem;
+}
+/* line 383, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .susong-item .help-btn {
+  display: block;
+  width: 6.4rem;
+  height: 1.62133rem;
+  text-align: center;
+  border-radius: 0.17067rem;
+  border: solid 3px #0076ff;
+  color: #0076ff;
+  font-size: 0.59733rem;
+  margin: 0 auto 1.28rem;
+}
+/* line 394, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .susong-item .lx-box {
+  font-size: 0.59733rem;
+}
+/* line 396, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .susong-item .lx-box p {
+  color: #474747;
+}
+/* line 399, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .susong-item .lx-box .contact-btn {
+  width: 6.4rem;
+  height: 1.62133rem;
+  text-align: center;
+  border-radius: 0.17067rem;
+  color: #ffffff;
+  font-size: 0.59733rem;
+  background: -webkit-linear-gradient(left, #ff8205, #ff6c16);
+  background: -o-linear-gradient(left, #ff8205, #ff6c16);
+  background: -moz-linear-gradient(left, #ff8205, #ff6c16);
+  background: linear-gradient(left, #ff8205, #ff6c16);
+}
+/* line 413, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .susong-item .endtime {
+  padding-left: 0.64rem;
+  color: #7f7f7f;
+  font-size: 0.59733rem;
+}
+/* line 421, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .money-item {
+  margin-bottom: 1.28rem;
+}
+/* line 423, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .money-item .top-box {
+  padding: 0.96rem 0.64rem;
+  background-color: #f0f5fa;
+  position: relative;
+}
+/* line 427, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .money-item .top-box p {
+  color: #7b8697;
+  font-size: 0.59733rem;
+}
+/* line 430, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .money-item .top-box p:not(:last-child) {
+  padding-bottom: 0.896rem;
+}
+/* line 433, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .money-item .top-box p .s-black {
+  color: #000000;
+}
+/* line 436, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .money-item .top-box p .s-gray {
+  color: #7f7f7f;
+}
+/* line 440, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .money-item .top-box .tit {
+  font-size: 0.68267rem;
+  color: #000000;
+}
+/* line 444, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .money-item .top-box div {
+  position: absolute;
+  top: 34%;
+  left: 33%;
+  width: 6.4rem;
+  height: 1.49333rem;
+  line-height: 1.49333rem;
+  background-color: #f3f0f2;
+  border-radius: 0.17067rem;
+  opacity: 0.8;
+  font-size: 0.768rem;
+  transform: rotate(-10deg);
+  margin: 0 auto -1.00267rem;
+  text-align: center;
+}
+/* line 459, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .money-item .top-box .s-hint {
+  color: #db2416;
+  border: solid 3px #e58c88;
+}
+/* line 463, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .money-item .top-box .f-hint {
+  color: #7f7f7f;
+  border: solid 3px #b7babc;
+}
+/* line 469, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .money-item .record {
+  padding: 1.19467rem 0.64rem;
+}
+/* line 471, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .money-item .record li {
+  color: #474747;
+  font-size: 0.59733rem;
+  line-height: 1.024rem;
+}
+/* line 475, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .money-item .record li:not(:last-child) {
+  padding-bottom: 0.96rem;
+}
+/* line 478, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .money-item .record li span {
+  color: #7f7f7f;
+  padding-right: 0.32rem;
+}
+/* line 485, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .money-item .help-btn {
+  display: block;
+  width: 6.4rem;
+  height: 1.62133rem;
+  text-align: center;
+  border-radius: 0.17067rem;
+  border: solid 3px #0076ff;
+  color: #0076ff;
+  font-size: 0.59733rem;
+  margin: 0 auto 1.28rem;
+}
+/* line 496, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .money-item .lx-box {
+  font-size: 0.59733rem;
+}
+/* line 498, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .money-item .lx-box p {
+  color: #474747;
+}
+/* line 501, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .money-item .lx-box .contact-btn {
+  width: 6.4rem;
+  height: 1.62133rem;
+  text-align: center;
+  border-radius: 0.17067rem;
+  color: #ffffff;
+  font-size: 0.59733rem;
+  background: -webkit-linear-gradient(left, #ff8205, #ff6c16);
+  background: -o-linear-gradient(left, #ff8205, #ff6c16);
+  background: -moz-linear-gradient(left, #ff8205, #ff6c16);
+  background: linear-gradient(left, #ff8205, #ff6c16);
+}
+/* line 515, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .money-item .endtime {
+  padding-left: 0.64rem;
+  color: #7f7f7f;
+  font-size: 0.59733rem;
+}
+/* line 526, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-head {
+  padding: 1.06667rem 0 0.42667rem;
+  border-bottom: 1px solid #f1eeee;
+}
+/* line 529, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-head .tit {
+  font-size: 0.68267rem;
+  color: #000000;
+}
+/* line 532, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-head .tit img {
+  width: 1.49333rem;
+  height: 1.49333rem;
+  border-radius: 50%;
+  margin-right: 0.53333rem;
+}
+/* line 539, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-head .time {
+  font-size: 0.512rem;
+  color: #8b8989;
+}
+/* line 545, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap {
+  padding: 0.85333rem 0;
+  font-size: 0.59733rem;
+}
+/* line 549, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .zc-top .zc-left {
+  width: 23%;
+}
+/* line 551, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .zc-top .zc-left img {
+  width: 1.81333rem;
+  height: 1.81333rem;
+  border-radius: 50%;
+}
+/* line 556, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .zc-top .zc-left div {
+  width: 72%;
+  margin-top: 0.53333rem;
+  height: 0.98133rem;
+  line-height: 0.98133rem;
+  text-align: center;
+  border-radius: 0.14933rem;
+  color: #fd3917;
+  border: 1px solid #fd3917;
+  font-size: 0.46933rem;
+}
+/* line 568, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .zc-top .zc-right {
+  width: 76%;
+  color: #383737;
+  font-size: 0.59733rem;
+}
+/* line 572, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .zc-top .zc-right > p {
+  padding-bottom: 0.85333rem;
+}
+/* line 575, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .zc-top .zc-right .star {
+  padding-bottom: 0.68267rem;
+}
+/* line 577, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .zc-top .zc-right .star img {
+  width: 0.42667rem;
+  height: 0.42667rem;
+}
+/* line 582, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .zc-top .zc-right .zc-hint {
+  line-height: 1.024rem;
+}
+/* line 585, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .zc-top .zc-right .hint-cont {
+  color: #fd4828;
+}
+/* line 588, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .zc-top .zc-right .noreply {
+  width: 8.64rem;
+  height: 4.58667rem;
+  margin-top: -4.26667rem;
+}
+/* line 593, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .zc-top .zc-right .great {
+  width: 8.64rem;
+  height: 4.58667rem;
+  margin-top: -8.96rem;
+}
+/* line 600, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .s-hint {
+  padding: 0.53333rem 0.64rem;
+  background-color: #fff9db;
+  border: 3px solid #f2f1f0;
+  color: #2b2a2f;
+  font-size: 0.59733rem;
+}
+/* line 607, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .call-box {
+  color: #434242;
+  margin: 1.152rem 0;
+}
+/* line 610, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .call-box img {
+  width: 0.64rem;
+  height: 0.64rem;
+  margin-right: 0.17067rem;
+}
+/* line 618, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .b-box button {
+  width: 6.4rem;
+  height: 1.6rem;
+  border-radius: 0.128rem;
+  font-size: 0.59733rem;
+  color: white;
+}
+/* line 624, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .b-box button img {
+  width: 1.13067rem;
+  height: 1.13067rem;
+}
+/* line 629, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .b-box .tel-btn {
+  background: -webkit-linear-gradient(left, #00d165, #01c046);
+  background: -o-linear-gradient(left, #00d165, #01c046);
+  background: -moz-linear-gradient(left, #00d165, #01c046);
+  background: linear-gradient(left, #00d165, #01c046);
+}
+/* line 635, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .b-box .in-btn {
+  background: -webkit-linear-gradient(left, #ff8205, #ff6c16);
+  background: -o-linear-gradient(left, #ff8205, #ff6c16);
+  background: -moz-linear-gradient(left, #ff8205, #ff6c16);
+  background: linear-gradient(left, #ff8205, #ff6c16);
+}
+/* line 643, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .question-wrap {
+  margin-top: 2.09067rem;
+  font-size: 0.59733rem;
+}
+/* line 646, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .question-wrap .q-head {
+  background: #e0edff;
+  color: #0082ff;
+  position: relative;
+  width: 6.61333rem;
+  height: 1.28rem;
+  line-height: 1.28rem;
+  padding-left: 0.32rem;
+  margin-bottom: 0.96rem;
+}
+/* line 655, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .question-wrap .q-head span {
+  display: block;
+  width: 0;
+  height: 0;
+  border-width: 0.64rem 0 0.64rem 0.64rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #e0edff;
+  position: absolute;
+  top: 0;
+  left: 6.61333rem;
+}
+/* line 667, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .question-wrap .q-cont-outer {
+  color: #8b8b8b;
+  line-height: 1.024rem;
+}
+/* line 671, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .question-wrap .overfive {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+}
+/* line 678, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .question-wrap .lookmore {
+  display: block;
+  margin: 0.512rem auto 0;
+  width: 5.12rem;
+  height: 1.49333rem;
+  line-height: 1.49333rem;
+  text-align: center;
+  border: 1px solid #0086ff;
+  border-radius: 0.17067rem;
+  color: #0086ff;
+  font-size: 0.59733rem;
+}
+/* line 691, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .resolve-wrap {
+  margin-top: 2.09067rem;
+}
+/* line 693, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .resolve-wrap .r-head {
+  background: #fff2df;
+  color: #ff631b;
+  position: relative;
+  width: 7.08267rem;
+  height: 1.28rem;
+  line-height: 1.28rem;
+  padding-left: 0.32rem;
+  margin-bottom: 0.96rem;
+}
+/* line 702, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .resolve-wrap .r-head span {
+  display: block;
+  width: 0;
+  height: 0;
+  border-width: 0.64rem 0 0.64rem 0.64rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #fff2df;
+  position: absolute;
+  top: 0;
+  left: 7.08267rem;
+}
+/* line 714, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .resolve-wrap .r-tit {
+  color: #404040;
+  font-size: 0.64rem;
+  margin-bottom: 0.96rem;
+}
+/* line 720, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .resolve-wrap .r-cont img {
+  width: 1.87733rem;
+  height: 2.13333rem;
+}
+/* line 724, ../sass/qiye-serve-file-detail.scss */
+.mobile-serve-file-detail .out-wrap .inner-wrap .zicha-item .zc-cont-wrap .resolve-wrap .r-cont .r-cont-rig {
+  width: 80%;
+  color: #8b8b8b;
+  line-height: 1.024rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}

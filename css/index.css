@@ -11,7 +11,7 @@
 .mobile-serve .top {
   width: 100%;
   height: 8.74667rem;
-  background-image: url("../images/bw-bg.png");
+  background-image: url("../img/qywx/bw-bg.png");
   background-size: cover;
 }
 /* line 12, ../sass/index.scss */
@@ -84,7 +84,7 @@
 .mobile-serve .serve-wrap {
   width: 100%;
   height: 14.54933rem;
-  background-image: url("../images/t-bg.png");
+  background-image: url("../img/qywx/t-bg.png");
   background-size: contain;
 }
 /* line 73, ../sass/index.scss */

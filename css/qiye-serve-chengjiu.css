@@ -1,0 +1,228 @@
+@charset "UTF-8";
+/* line 5, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu {
+  /*头部*/
+}
+/* line 7, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .top {
+  width: 100%;
+  height: 8.74667rem;
+  background-image: url("../img/qywx/bw-bg.png");
+  background-size: cover;
+}
+/* line 12, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .top .info-box {
+  width: 92%;
+  height: 6.48533rem;
+  margin: 0 4%;
+  position: absolute;
+  top: 1.74933rem;
+  background: white;
+}
+/* line 19, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .top .info-box .t-box {
+  height: 1.83467rem;
+  margin: 1.10933rem 0.64rem;
+}
+/* line 22, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .top .info-box .t-box img {
+  width: 1.83467rem;
+  height: 1.83467rem;
+  border-radius: 50%;
+}
+/* line 27, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .top .info-box .t-box div {
+  width: 80%;
+  height: 100%;
+}
+/* line 30, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .top .info-box .t-box div p:first-child {
+  color: #565555;
+  font-size: 0.59733rem;
+}
+/* line 34, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .top .info-box .t-box div p:last-child {
+  color: #939393;
+  font-size: 0.512rem;
+}
+/* line 40, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .top .info-box .b-box {
+  padding: 0 0.72533rem;
+}
+/* line 42, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .top .info-box .b-box button {
+  width: 6.4rem;
+  height: 1.6rem;
+  border-radius: 0.128rem;
+  font-size: 0.59733rem;
+  color: white;
+}
+/* line 48, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .top .info-box .b-box button img {
+  width: 1.13067rem;
+  height: 1.13067rem;
+}
+/* line 53, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .top .info-box .b-box .tel-btn {
+  background: -webkit-linear-gradient(left, #00d165, #01c046);
+  background: -o-linear-gradient(left, #00d165, #01c046);
+  background: -moz-linear-gradient(left, #00d165, #01c046);
+  background: linear-gradient(left, #00d165, #01c046);
+}
+/* line 59, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .top .info-box .b-box .in-btn {
+  background: -webkit-linear-gradient(left, #ff8205, #ff6c16);
+  background: -o-linear-gradient(left, #ff8205, #ff6c16);
+  background: -moz-linear-gradient(left, #ff8205, #ff6c16);
+  background: linear-gradient(left, #ff8205, #ff6c16);
+}
+/* line 69, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .c-wrap {
+  background-color: #f1f0f1;
+  padding: 0 4% 3.02933rem;
+}
+/* line 72, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .c-wrap .content {
+  background-color: #ffffff;
+  padding: 0 0.64rem;
+}
+/* line 75, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .c-wrap .content:not(:last-child) {
+  margin-bottom: 0.512rem;
+}
+/* line 78, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .c-wrap .content .title {
+  height: 2.13333rem;
+  font-size: 0.68267rem;
+  color: #000000;
+  border-bottom: 2px solid #f0eeee;
+}
+/* line 83, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .c-wrap .content .title .m-img {
+  width: 0.64rem;
+  height: 0.64rem;
+  border-radius: 0.10667rem;
+  margin-right: 0.34133rem;
+}
+/* line 89, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .c-wrap .content .title .next {
+  width: 0.42667rem;
+  height: 0.42667rem;
+}
+/* line 95, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .c-wrap .content .title .year-box-wrap .year-box {
+  position: relative;
+  margin-top: 0.29867rem;
+}
+/* line 98, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .c-wrap .content .title .year-box-wrap .year-box p {
+  width: 4.096rem;
+  height: 1.536rem;
+  line-height: 1.536rem;
+  text-align: center;
+  border-radius: 0.17067rem;
+  border: 1px solid #cdcdcd;
+  position: relative;
+  color: #b2b0b0;
+}
+/* line 107, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .c-wrap .content .title .year-box-wrap .year-box p img {
+  width: 0.32rem;
+  height: 0.32rem;
+  margin-left: 0.14933rem;
+}
+/* line 113, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .c-wrap .content .title .year-box-wrap .year-box .year-cont {
+  position: absolute;
+  top: 1.536rem;
+  width: 4.096rem;
+  border: 1px solid #cdcdcd;
+  z-index: 99;
+  background: white;
+}
+/* line 120, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .c-wrap .content .title .year-box-wrap .year-box .year-cont li {
+  text-align: center;
+  height: 1.536rem;
+  line-height: 1.536rem;
+  border-bottom: 1px solid #cdcdcd;
+  color: #b2b0b0;
+}
+/* line 136, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .c-wrap .content .total {
+  height: 2.13333rem;
+  line-height: 2.13333rem;
+  text-align: center;
+  font-size: 0.59733rem;
+  margin: 0.85333rem 0;
+  border: dashed 1px #c1c1c1;
+  color: #fd5234;
+}
+/* line 148, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .c-wrap .content .cj-cont-wrap .cj-cont {
+  background-color: #f5f5f5;
+  padding: 1.17333rem 0.512rem;
+}
+/* line 153, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .c-wrap .content .cj-cont-wrap .cj-cont li:not(:last-child) {
+  padding-bottom: 1.06667rem;
+}
+/* line 156, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .c-wrap .content .cj-cont-wrap .cj-cont li .c-index {
+  width: 0.768rem;
+  height: 0.768rem;
+  line-height: 0.768rem;
+  border-radius: 50%;
+  background-color: #08b6b6;
+  color: #ffffff;
+  font-size: 0.55467rem;
+  text-align: center;
+  margin-top: 0.256rem;
+}
+/* line 167, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .c-wrap .content .cj-cont-wrap .cj-cont li .c-con {
+  width: 90%;
+  font-size: 0.59733rem;
+  line-height: 1.06667rem;
+}
+/* line 171, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .c-wrap .content .cj-cont-wrap .cj-cont li .c-con .t-weight {
+  font-weight: bold;
+}
+/* line 181, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .c-wrap .content .reward {
+  padding: 1.45067rem 0 0.59733rem;
+  border-bottom: 2px solid #f1eff0;
+}
+/* line 184, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .c-wrap .content .reward li {
+  width: 49%;
+}
+/* line 186, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .c-wrap .content .reward li img {
+  width: 1.024rem;
+  height: 1.664rem;
+}
+/* line 190, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .c-wrap .content .reward li p {
+  font-size: 0.55467rem;
+  line-height: 0.768rem;
+  margin-top: 0.256rem;
+  color: #474747;
+}
+/* line 196, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .c-wrap .content .reward li:first-child {
+  border-right: 2px solid #f2f2f2;
+}
+/* line 201, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .c-wrap .content .kfc {
+  font-size: 0.46933rem;
+  color: #989898;
+  padding: 0.85333rem 0;
+}
+/* line 202, ../sass/qiye-serve-chengjiu.scss */
+.mobile-serve-chengjiu .c-wrap .content .kfc img {
+  width: 0.53333rem;
+  height: 0.40533rem;
+  margin-right: 0.14933rem;
+}

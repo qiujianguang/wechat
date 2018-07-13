@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,minimum-scale=1.0, maximum-scale=1.0,width=device-width">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no, email=no">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <title>我的全能法务</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/qiye-serve-chengjiu.css">
+    <script src="js/jquery-1.8.0.min.js"></script>
+    <script src="js/hotcss.js"></script>
+</head>
+<body>
+<div class="mobile-serve-chengjiu">
+    <div class="top">
+        <div class="info-box">
+            <div class="t-box flex">
+                <img src="img/qywx/headimg.png" alt="">
+                <div class="col-aro">
+                    <p class="overstep">Hello，下午好！我是您的售前律师-谢123456789</p>
+                    <p><span class="fl">服务经验：法律咨询8001次</span><span class="fr">拟审合同：4000项</span></p>
+                </div>
+            </div>
+            <div class="b-box flex">
+                <button class="tel-btn">
+                    <img src="img/qywx/tel.png" alt="">
+                    <span>电话联系</span>
+                </button>
+                <button class="in-btn">
+                    <img src="img/qywx/xiaoxi.png" alt="">
+                    <span>在线联系</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="c-wrap">
+        <div class="content">
+            <div class="title flex-bt">
+                <p class="alicen"><img class="m-img" src="img/qywx/fuwucj.png" alt="">服务成就</p>
+                <div class="year-box-wrap">
+                   <div class="year-box">
+                       <p><span>2017年</span><img src="img/qywx/gray-xl.png" alt=""></p>
+                       <ul class="year-cont none">
+                          <li>2018年</li><li>2017年</li><li>2016年</li><li>2015年</li>
+                          <li>2014年</li><li>2013年</li><li>2012年</li><li>2012年</li>
+                       </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="total">减少企业损失180万</div>
+            <div class="cj-cont-wrap">
+                <ul class="cj-cont">
+                    <li class="flex-bt">
+                        <p class="c-index">1</p>
+                        <p class="c-con">客户违约，按合同条款约定，<span class="t-weight">获赔100万</span>；</p>
+                    </li>
+                    <li class="flex-bt">
+                        <p class="c-index">2</p>
+                        <p class="c-con">员工申请劳动仲裁，经指导后私下调整成功，<span class="t-weight">减少支付员工8个月双倍工资5万元，</span>同时为企业完善用工制度；</p>
+                    </li>
+                    <li class="flex-bt">
+                        <p class="c-index">3</p>
+                        <p class="c-con">协助催款，寄送律师函，电话持续跟进，<span class="t-weight">追回欠款75万</span>；</p>
+                    </li>
+                    <li class="flex-bt">
+                        <p class="c-index">4</p>
+                        <p class="c-con">提醒按时履约，避免向合同相对方<span class="t-weight">支付120万违约金</span>；</p>
+                    </li>
+                    <li class="flex-bt">
+                        <p class="c-index">5</p>
+                        <p class="c-con">您与******公司签订的《合作协议》对方违约，按合同条款约定，<span class="t-weight">获赔3万</span>；</p>
+                    </li>
+                    <li class="flex-bt">
+                        <p class="c-index">6</p>
+                        <p class="c-con">提醒按时履约，避免向合同相对方<span class="t-weight">支付120万违约金</span>；</p>
+                    </li>
+                </ul>
+            </div>
+            <ul class="reward flex">
+                <li class="col-cen">
+                    <img src="img/qywx/jbei.png" alt="">
+                    <p>给自己点赞</p>
+                </li>
+                <li class="col-cen">
+                    <img src="img/qywx/jitui.png" alt="">
+                    <p>给法务经理加鸡腿</p>
+                </li>
+            </ul>
+            <div class="kfc"><img src="img/qywx/queen.png" alt="">鸡腿不够，请他吃“金拱门”全家桶（点几次吃几桶哦~）</div>
+        </div>
+
+    </div>
+
+     <!--底部导航-->
+    <ul class="bottom flex-arocen">
+        <li class="m-serve cur alicen">
+            <a href="index.html">
+                <div></div>
+                <p>企业服务</p>
+            </a>
+        </li>
+        <li class="m-remind alicen">
+            <a href="laywer-remind.html">
+                <div></div>
+                <p>律师提醒</p>
+            </a>
+        </li>
+        <li class="m-danger alicen">
+            <a href="">
+                <div></div>
+                <p>行业风险</p>
+            </a>
+        </li>
+        <li class="m-manage alicen">
+            <a href="">
+                <div></div>
+                <p>合同管理</p>
+            </a>
+        </li>
+    </ul>
+</div>
+<script>
+    $(document).ready(function(){
+        $(".bottom li").click(function () {
+            var $this=$(this);
+            $this.addClass("cur").siblings().removeClass("cur");
+        });
+        //年份的选择下拉
+        $(".year-box p").click(function () {
+            $(".year-cont").slideToggle()
+        });
+        $(".year-cont li").click(function () {
+            var $year=$(this).html();
+            $(".year-box p span").html($year);
+            $(".year-cont").slideUp();
+        })
+    })
+</script>
+</body>
+</html>

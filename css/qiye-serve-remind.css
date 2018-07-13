@@ -1,0 +1,510 @@
+@charset "UTF-8";
+/* line 5, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind {
+  /*头部*/
+  /*提示底部*/
+}
+/* line 7, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .top {
+  width: 100%;
+  height: 8.74667rem;
+  background-image: url("../img/qywx/bw-bg.png");
+  background-color: #f1f0f1;
+  background-size: cover;
+}
+/* line 13, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .top .info-box {
+  width: 92%;
+  height: 4.90667rem;
+  margin: 0 4%;
+  padding: 0 0.64rem;
+  position: absolute;
+  top: 3.072rem;
+  background: white;
+  box-shadow: 0 0 0.29867rem 0.08533rem rgba(51, 51, 51, 0.1);
+}
+/* line 22, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .top .info-box img {
+  width: 1.83467rem;
+  height: 1.83467rem;
+  border-radius: 50%;
+  margin-top: 1.06667rem;
+}
+/* line 28, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .top .info-box .r-cont {
+  margin-top: 1.06667rem;
+  width: 83%;
+}
+/* line 31, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .top .info-box .r-cont .c-tit {
+  font-size: 0.68267rem;
+  color: #000000;
+  padding-bottom: 0.256rem;
+}
+/* line 36, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .top .info-box .r-cont .c-con {
+  font-size: 0.59733rem;
+  color: #565555;
+}
+/* line 39, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .top .info-box .r-cont .c-con .t-main {
+  color: #fd5234;
+}
+/* line 46, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap {
+  background-color: #f1f0f1;
+}
+/* line 50, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .head-box {
+  background: #ffffff;
+  margin: 0 4% 0.512rem;
+}
+/* line 53, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .head-box .head-ul {
+  border-bottom: 2px solid #f2f1f2;
+}
+/* line 54, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .head-box .head-ul li {
+  cursor: pointer;
+  padding: 0.81067rem 0;
+  color: #808080;
+  font-size: 0.68267rem;
+}
+/* line 60, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .head-box .head-ul li.cur {
+  border-bottom: solid 2px #0076ff;
+}
+/* line 66, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .head-box .sele-ul {
+  padding: 0.64rem;
+}
+/* line 68, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .head-box .sele-ul > li {
+  width: 30%;
+  position: relative;
+}
+/* line 71, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .head-box .sele-ul > li .s-item {
+  font-size: 0.59733rem;
+  color: #b2b0b0;
+  width: 100%;
+  height: 1.36533rem;
+  text-align: center;
+  line-height: 1.36533rem;
+  border-radius: 0.17067rem;
+  border: solid 1px #cdcdcd;
+}
+/* line 80, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .head-box .sele-ul > li .s-item .pic {
+  width: 0.256rem;
+  height: 0.256rem;
+  background-image: url("../img/qywx/gray-xl.png");
+  background-size: cover;
+}
+/* line 87, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .head-box .sele-ul > li .s-item.cur {
+  color: #0076ff;
+}
+/* line 89, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .head-box .sele-ul > li .s-item.cur .pic {
+  background-image: url("../img/qywx/blue-sq.png");
+}
+/* line 94, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .head-box .sele-ul > li .pop-item {
+  position: absolute;
+  top: 1.36533rem;
+  width: 100%;
+  font-size: 0.55467rem;
+  background: #ffffff;
+  z-index: 9;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: #cdcdcd;
+}
+/* line 104, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .head-box .sele-ul > li .pop-item li {
+  width: 90%;
+  height: 1.49333rem;
+  text-align: center;
+  line-height: 1.49333rem;
+  margin: 0 auto;
+  color: #b2b0b0;
+}
+/* line 111, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .head-box .sele-ul > li .pop-item li:not(:last-child) {
+  border-bottom: 1px solid #cdcdcd;
+}
+/* line 116, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .head-box .sele-ul > li .type-cont {
+  position: absolute;
+  top: 1.36533rem;
+  width: 100%;
+}
+/* line 124, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .head-box .search-box {
+  padding: 0 0.64rem 0.64rem;
+  font-size: 0.59733rem;
+}
+/* line 128, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .head-box .search-box .input-box {
+  width: 70%;
+  height: 1.792rem;
+  line-height: 1.792rem;
+  border: solid 1px #cdcdcd;
+  border-radius: 0.17067rem;
+}
+/* line 134, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .head-box .search-box .input-box img {
+  width: 0.512rem;
+  height: 0.512rem;
+  margin-left: 0.59733rem;
+  margin-right: 0.29867rem;
+}
+/* line 140, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .head-box .search-box .input-box input {
+  font-size: 0.59733rem;
+}
+/* line 144, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .head-box .search-box .search-btn {
+  width: 25%;
+  height: 1.792rem;
+  background-color: #0076ff;
+  border-radius: 0.17067rem;
+  color: #ffffff;
+  font-size: 0.59733rem;
+}
+/* line 154, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .total {
+  width: 100%;
+  height: 1.792rem;
+  line-height: 1.792rem;
+  text-align: center;
+  font-size: 0.59733rem;
+  color: #fd5234;
+  background-color: #fff9db;
+  margin-bottom: 0.512rem;
+}
+/* line 165, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .doing {
+  margin: 0 4%;
+}
+/* line 167, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .doing > li {
+  background: #ffffff;
+  padding: 0 0.64rem 1.06667rem;
+  border-bottom: 2px solid #f0eeee;
+}
+/* line 171, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .doing > li .head {
+  font-size: 0.512rem;
+  padding-top: 1.06667rem;
+}
+/* line 174, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .doing > li .head p {
+  color: #939393;
+}
+/* line 177, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .doing > li .head button {
+  padding: 0 0.32rem;
+  height: 0.896rem;
+  line-height: 0.896rem;
+  text-align: center;
+  font-size: 0.512rem;
+  border-radius: 0.10667rem;
+  border: solid 2px #0076ff;
+  color: #0076ff;
+}
+/* line 188, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .doing > li .head .spe-btn {
+  border: solid 2px #fd5234;
+  color: #fd5234;
+}
+/* line 194, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .doing > li .i-cont .i-name {
+  font-size: 0.64rem;
+  color: #000000;
+  padding-top: 0.21333rem;
+  font-weight: bold;
+}
+/* line 200, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .doing > li .i-cont .i-text {
+  font-size: 0.59733rem;
+  color: #474747;
+  line-height: 1.024rem;
+  padding: 0.64rem 0;
+}
+/* line 208, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .doing > li .i-cont .c-box p {
+  color: #0076ff;
+  font-size: 0.59733rem;
+}
+/* line 212, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .doing > li .i-cont .c-box .spe-text {
+  color: #474747;
+}
+/* line 215, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .doing > li .i-cont .c-box button {
+  background: -webkit-linear-gradient(left, #ff8305, #ff6a16);
+  background: -o-linear-gradient(left, #ff8305, #ff6a16);
+  background: -moz-linear-gradient(left, #ff8305, #ff6a16);
+  background: linear-gradient(left, #ff8305, #ff6a16);
+  width: 6.4rem;
+  height: 1.64267rem;
+  border-radius: 0.17067rem;
+  font-size: 0.59733rem;
+  color: #ffffff;
+}
+/* line 233, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .doing > li:not(:last-child) {
+  margin-bottom: 0.512rem;
+}
+/* line 240, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish {
+  margin: 0 4%;
+}
+/* line 242, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item {
+  background: #ffffff;
+  padding: 0 0.64rem;
+  border-bottom: 2px solid #f0eeee;
+}
+/* line 246, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .head {
+  font-size: 0.512rem;
+  padding-top: 1.06667rem;
+}
+/* line 249, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .head p {
+  color: #939393;
+}
+/* line 252, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .head button {
+  width: 2.496rem;
+  height: 0.896rem;
+  line-height: 0.896rem;
+  text-align: center;
+  font-size: 0.512rem;
+  border-radius: 0.10667rem;
+}
+/* line 263, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .i-cont .i-name {
+  font-size: 0.64rem;
+  color: #000000;
+  padding-top: 0.21333rem;
+  font-weight: bold;
+}
+/* line 269, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .i-cont .i-text {
+  font-size: 0.59733rem;
+  color: #474747;
+  line-height: 1.024rem;
+  padding: 0.64rem 0;
+}
+/* line 277, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .i-cont .open-cont .sele-ul {
+  margin: 0.96rem 0;
+}
+/* line 280, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .i-cont .open-cont .sele-ul li img {
+  width: 2.28267rem;
+  height: 2.28267rem;
+}
+/* line 284, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .i-cont .open-cont .sele-ul li button {
+  width: 6.4rem;
+  height: 1.62133rem;
+  line-height: 1.62133rem;
+  text-align: center;
+  border-radius: 0.17067rem;
+  font-size: 0.59733rem;
+  margin-top: 1.06667rem;
+}
+/* line 293, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .i-cont .open-cont .sele-ul li .preview-btn {
+  border: solid 2px #fd5234;
+  color: #fd5234;
+}
+/* line 297, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .i-cont .open-cont .sele-ul li .email-btn {
+  border: solid 2px #0096ff;
+  color: #0096ff;
+}
+/* line 301, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .i-cont .open-cont .sele-ul li:last-child {
+  position: relative;
+}
+/* line 304, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .i-cont .open-cont .sele-ul li .set-tx {
+  position: absolute;
+  right: 0;
+  top: -1.6rem;
+  height: 1.28rem;
+  line-height: 1.28rem;
+  padding: 0 0.42667rem;
+  border-radius: 0.17067rem;
+  background-color: #a8a8a8;
+  font-size: 0.512rem;
+  color: #ffffff;
+}
+/* line 315, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .i-cont .open-cont .sele-ul li .set-tx .triangle_border_down {
+  display: block;
+  width: 0;
+  height: 0;
+  border-width: 0.42667rem 0.42667rem 0;
+  border-style: solid;
+  border-color: #a8a8a8 transparent transparent;
+  position: absolute;
+  bottom: -0.40533rem;
+  left: 50%;
+  margin-left: -0.42667rem;
+}
+/* line 333, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .i-cont .open-cont .em-sele {
+  margin: 0.96rem 0;
+}
+/* line 335, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .i-cont .open-cont .em-sele img {
+  width: 2.28267rem;
+  height: 2.28267rem;
+}
+/* line 339, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .i-cont .open-cont .em-sele button {
+  width: 6.4rem;
+  height: 1.62133rem;
+  line-height: 1.62133rem;
+  text-align: center;
+  border-radius: 0.17067rem;
+  font-size: 0.59733rem;
+  margin-top: 1.06667rem;
+}
+/* line 348, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .i-cont .open-cont .em-sele .email-btn {
+  border: solid 2px #0096ff;
+  color: #0096ff;
+}
+/* line 354, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .i-cont .open-cont .manyi-sele {
+  border-top: 2px solid #f0eeee;
+  padding: 0.64rem 0;
+}
+/* line 357, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .i-cont .open-cont .manyi-sele p {
+  width: 50%;
+  text-align: center;
+  color: #939393;
+  font-size: 0.512rem;
+}
+/* line 361, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .i-cont .open-cont .manyi-sele p img {
+  width: 0.98133rem;
+  height: 0.98133rem;
+  margin-right: 0.384rem;
+}
+/* line 368, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .i-cont .open-cont .manyi-sele p:first-child {
+  border-right: 2px solid #f0eeee;
+}
+/* line 375, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .i-cont .open-cont .reason-wrap {
+  padding-bottom: 1.024rem;
+}
+/* line 377, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .i-cont .open-cont .reason-wrap .reason {
+  color: #939393;
+  font-size: 0.55467rem;
+  line-height: 1.024rem;
+  background-color: #e5f8ec;
+  padding: 0.55467rem;
+}
+/* line 388, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .i-cont .f-hint {
+  width: 6.4rem;
+  height: 1.49333rem;
+  line-height: 1.49333rem;
+  background-color: #f5f5f5;
+  border-radius: 0.17067rem;
+  border: solid 3px #7f7f7f;
+  opacity: 0.5;
+  font-size: 0.74667rem;
+  color: #a7a4a4;
+  transform: rotate(-10deg);
+  margin: 0 auto -1.00267rem;
+  text-align: center;
+}
+/* line 403, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .i-cont .s-hint {
+  width: 6.4rem;
+  height: 1.49333rem;
+  line-height: 1.49333rem;
+  background-color: #e5f5e8;
+  border-radius: 0.17067rem;
+  border: solid 3px #00c425;
+  opacity: 0.5;
+  font-size: 0.74667rem;
+  color: #00c425;
+  transform: rotate(-10deg);
+  margin: 0 auto -1.00267rem;
+  text-align: center;
+}
+/* line 418, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .i-cont .sr-hint {
+  width: 6.4rem;
+  height: 1.49333rem;
+  line-height: 1.49333rem;
+  background-color: #fcedec;
+  border-radius: 0.17067rem;
+  border: solid 4px #db2416;
+  opacity: 0.8;
+  font-size: 0.74667rem;
+  color: #db2416;
+  transform: rotate(-10deg);
+  margin: 0 auto -1.00267rem;
+  text-align: center;
+}
+/* line 433, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .i-cont .lx-box {
+  padding-bottom: 1.06667rem;
+}
+/* line 435, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .i-cont .lx-box p {
+  color: #0076ff;
+  font-size: 0.59733rem;
+}
+/* line 439, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .tx-item .i-cont .lx-box .contact-btn {
+  background: -webkit-linear-gradient(left, #ff8305, #ff6a16);
+  background: -o-linear-gradient(left, #ff8305, #ff6a16);
+  background: -moz-linear-gradient(left, #ff8305, #ff6a16);
+  background: linear-gradient(left, #ff8305, #ff6a16);
+  width: 6.4rem;
+  height: 1.64267rem;
+  border-radius: 0.17067rem;
+  font-size: 0.59733rem;
+  color: #ffffff;
+}
+/* line 455, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish > li:not(:last-child) {
+  margin-bottom: 0.512rem;
+}
+/* line 461, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .ontime .head button {
+  border: solid 2px #fd5234;
+  color: #fd5234;
+}
+/* line 470, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .out-wrap .finish .overtime .head button {
+  border: solid 2px #01bf45;
+  color: #01bf45;
+}
+/* line 482, ../sass/qiye-serve-remind.scss */
+.mobile-serve-remind .t-bottom {
+  width: 100%;
+  height: 2.24rem;
+  line-height: 2.24rem;
+  text-align: center;
+  background: #f1f0f1;
+  color: #d2d0d0;
+  font-size: 0.59733rem;
+  margin-bottom: 2.38933rem;
+}

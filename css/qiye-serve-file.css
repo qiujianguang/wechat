@@ -1,0 +1,279 @@
+@charset "UTF-8";
+/* line 5, ../sass/qiye-serve-file.scss */
+.mobile-serve-file {
+  /*头部*/
+}
+/* line 7, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .top {
+  width: 100%;
+  height: 8.74667rem;
+  background-image: url("../img/qywx/bw-bg.png");
+  background-size: cover;
+}
+/* line 12, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .top .info-box {
+  width: 92%;
+  height: 6.48533rem;
+  margin: 0 4%;
+  position: absolute;
+  top: 1.74933rem;
+  background: white;
+}
+/* line 19, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .top .info-box .t-box {
+  height: 1.83467rem;
+  margin: 1.10933rem 0.64rem;
+}
+/* line 22, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .top .info-box .t-box img {
+  width: 1.83467rem;
+  height: 1.83467rem;
+  border-radius: 50%;
+}
+/* line 27, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .top .info-box .t-box div {
+  width: 80%;
+  height: 100%;
+}
+/* line 30, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .top .info-box .t-box div p:first-child {
+  color: #565555;
+  font-size: 0.59733rem;
+}
+/* line 34, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .top .info-box .t-box div p:last-child {
+  color: #939393;
+  font-size: 0.512rem;
+}
+/* line 40, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .top .info-box .b-box {
+  padding: 0 0.72533rem;
+}
+/* line 42, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .top .info-box .b-box button {
+  width: 6.4rem;
+  height: 1.6rem;
+  border-radius: 0.128rem;
+  font-size: 0.59733rem;
+  color: white;
+}
+/* line 48, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .top .info-box .b-box button img {
+  width: 1.13067rem;
+  height: 1.13067rem;
+}
+/* line 53, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .top .info-box .b-box .tel-btn {
+  background: -webkit-linear-gradient(left, #00d165, #01c046);
+  background: -o-linear-gradient(left, #00d165, #01c046);
+  background: -moz-linear-gradient(left, #00d165, #01c046);
+  background: linear-gradient(left, #00d165, #01c046);
+}
+/* line 59, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .top .info-box .b-box .in-btn {
+  background: -webkit-linear-gradient(left, #ff8205, #ff6c16);
+  background: -o-linear-gradient(left, #ff8205, #ff6c16);
+  background: -moz-linear-gradient(left, #ff8205, #ff6c16);
+  background: linear-gradient(left, #ff8205, #ff6c16);
+}
+/* line 69, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap {
+  background: #f1f0f1;
+  padding: 0 4% 3.02933rem;
+}
+/* line 73, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .head-box {
+  background: #ffffff;
+  padding: 0 0.64rem;
+}
+/* line 76, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .head-box .title {
+  height: 2.13333rem;
+  font-size: 0.68267rem;
+  color: #000000;
+  border-bottom: 2px solid #f0eeee;
+}
+/* line 81, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .head-box .title .m-img {
+  width: 0.64rem;
+  height: 0.64rem;
+  border-radius: 0.10667rem;
+  margin-right: 0.34133rem;
+}
+/* line 87, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .head-box .title .total {
+  font-size: 0.59733rem;
+  color: #474747;
+}
+/* line 90, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .head-box .title .total span {
+  color: #fe3824;
+  padding: 0 0.128rem;
+}
+/* line 100, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .head-box .sele-ul {
+  padding: 0.64rem 0;
+}
+/* line 102, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .head-box .sele-ul > li {
+  width: 30%;
+  position: relative;
+}
+/* line 105, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .head-box .sele-ul > li .s-item {
+  font-size: 0.59733rem;
+  color: #b2b0b0;
+  width: 100%;
+  height: 1.36533rem;
+  text-align: center;
+  line-height: 1.36533rem;
+  border-radius: 0.17067rem;
+  border: solid 1px #cdcdcd;
+}
+/* line 114, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .head-box .sele-ul > li .s-item .pic {
+  width: 0.256rem;
+  height: 0.256rem;
+  background-image: url("../img/qywx/gray-xl.png");
+  background-size: cover;
+}
+/* line 121, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .head-box .sele-ul > li .s-item.cur {
+  color: #0076ff;
+}
+/* line 123, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .head-box .sele-ul > li .s-item.cur .pic {
+  background-image: url("../img/qywx/blue-sq.png");
+}
+/* line 128, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .head-box .sele-ul > li .pop-item {
+  position: absolute;
+  top: 1.36533rem;
+  width: 100%;
+  font-size: 0.55467rem;
+  background: #ffffff;
+  z-index: 9;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: #cdcdcd;
+}
+/* line 138, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .head-box .sele-ul > li .pop-item li {
+  width: 90%;
+  height: 1.49333rem;
+  text-align: center;
+  line-height: 1.49333rem;
+  margin: 0 auto;
+  color: #b2b0b0;
+}
+/* line 145, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .head-box .sele-ul > li .pop-item li:not(:last-child) {
+  border-bottom: 1px solid #cdcdcd;
+}
+/* line 150, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .head-box .sele-ul > li .type-cont {
+  position: absolute;
+  top: 1.36533rem;
+  width: 100%;
+}
+/* line 158, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .head-box .search-box {
+  font-size: 0.59733rem;
+}
+/* line 162, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .head-box .search-box .input-box {
+  width: 70%;
+  height: 1.792rem;
+  line-height: 1.792rem;
+  border: solid 1px #cdcdcd;
+  border-radius: 0.17067rem;
+}
+/* line 168, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .head-box .search-box .input-box img {
+  width: 0.512rem;
+  height: 0.512rem;
+  margin-left: 0.59733rem;
+  margin-right: 0.29867rem;
+}
+/* line 174, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .head-box .search-box .input-box input {
+  font-size: 0.59733rem;
+}
+/* line 178, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .head-box .search-box .search-btn {
+  width: 25%;
+  height: 1.792rem;
+  background-color: #0076ff;
+  border-radius: 0.17067rem;
+  color: #ffffff;
+  font-size: 0.59733rem;
+}
+/* line 188, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .cont-wrap {
+  background: #ffffff;
+  padding: 0.64rem;
+}
+/* line 191, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .cont-wrap .thead {
+  border-width: 1px  1px 0 1px;
+  border-style: solid;
+  border-color: #e6e6e6;
+  margin-top: 0.42667rem;
+}
+/* line 196, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .cont-wrap .thead p {
+  height: 2.60267rem;
+  line-height: 2.60267rem;
+  text-align: center;
+  font-size: 0.55467rem;
+  color: #0076ff;
+}
+/* line 203, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .cont-wrap .thead p:nth-child(1) {
+  width: 30%;
+  border-right: 1px solid #e6e6e6;
+}
+/* line 207, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .cont-wrap .thead p:nth-child(2) {
+  width: 45%;
+  border-right: 1px solid #e6e6e6;
+}
+/* line 211, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .cont-wrap .thead p:nth-child(3) {
+  width: 25%;
+}
+/* line 215, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .cont-wrap .content {
+  border: 1px solid #e6e6e6;
+}
+/* line 217, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .cont-wrap .content li {
+  border-bottom: 1px solid #e6e6e6;
+}
+/* line 219, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .cont-wrap .content li p {
+  height: 2.60267rem;
+  line-height: 2.60267rem;
+  text-align: center;
+  font-size: 0.55467rem;
+  color: #474747;
+}
+/* line 226, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .cont-wrap .content li p:nth-child(1) {
+  width: 30%;
+  border-right: 1px solid #e6e6e6;
+}
+/* line 230, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .cont-wrap .content li p:nth-child(2) {
+  width: 45%;
+  border-right: 1px solid #e6e6e6;
+  padding: 0 0.21333rem;
+}
+/* line 235, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .cont-wrap .content li p:nth-child(3) {
+  width: 25%;
+}
+/* line 238, ../sass/qiye-serve-file.scss */
+.mobile-serve-file .file-wrap .cont-wrap .content li .fw-ing {
+  color: #fe3824;
+}
