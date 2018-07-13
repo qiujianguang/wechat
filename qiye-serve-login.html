@@ -299,26 +299,20 @@
                 $this.siblings(".open-cont").hide();
             }
         })
-        //日期的判断
-        var startTime=$(".s-year").html()+"-"+$(".s-month").html()+"-"+$(".s-day").html();
-        var endTime=$(".e-year").html()+"-"+$(".e-month").html()+"-"+$(".e-day").html();
-        console.log(startTime);
-        var today=new Date();//获取当前时间(没有格式化)
-        var year=today.getFullYear();
-        var month=today.getMonth()+1;
-        var day=today.getDate();
-        if(month<=9){//格式化
-            month="0"+month;
-        }
-        if(day<=9){
-            day="0"+day;
-        }
-        today=year+"-"+month+"-"+day;
-        if(today>startTime){//对比日期大小
-            console.log("开始监控日期要大于当前日期!");
-        }
-        var iDays = parseInt(Math.abs(today - startTime) / 1000 / 60 / 60 / 24);
-        console.log(iDays);
+        //页面链接跳转
+       $(".in-btn").click(function(){
+           window.location.href="online-contact.html"
+       });
+        $(".tixing-box .next").click(function(){
+            window.location.href="qiye-serve-remind.html"
+        });
+        $(".chengjiu-box .next").click(function(){
+            window.location.href="qiye-serve-chengjiu.html"
+        });
+        $(".file-box .next").click(function(){
+            window.location.href="qiye-serve-file.html"
+        });
+
 
 
 
