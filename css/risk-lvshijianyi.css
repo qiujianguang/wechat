@@ -1,0 +1,191 @@
+/* line 7, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi .top {
+  height: 2.56rem;
+  padding: 0 4%;
+  font-size: 0.512rem;
+  color: #b4b4b4;
+}
+/* line 12, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi .top .t-tit {
+  color: #474747;
+  font-size: 0.59733rem;
+  padding-bottom: 0.128rem;
+}
+/* line 16, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi .top .t-tit img {
+  width: 0.29867rem;
+  height: 0.512rem;
+  margin-left: 0.17067rem;
+}
+/* line 22, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi .top .t-model {
+  color: #474747;
+}
+/* line 25, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi .top span {
+  padding-right: 0.46933rem;
+}
+/* line 28, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi .top .switch {
+  display: inline-block;
+  background: #d5d5d5;
+  border-radius: 0.34133rem;
+  width: 1.32267rem;
+  height: 0.68267rem;
+}
+/* line 34, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi .top .switch .w-dot {
+  display: inline-block;
+  width: 0.64rem;
+  height: 0.64rem;
+  border-radius: 50%;
+  background: white;
+  margin: 0.02133rem 0 0.02133rem 0.04267rem;
+}
+/* line 43, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi .top .switch.cur {
+  background-image: linear-gradient(-180deg, #00aaff 0%, #0086ff 98%);
+}
+/* line 48, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi .risk-jianyi-cont {
+  padding: 0 4%;
+}
+/* line 50, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi .risk-jianyi-cont .r-title {
+  font-family: PingFangSC-Regular;
+  font-size: 0.93867rem;
+  color: #060606;
+  line-height: 1.45067rem;
+  padding: 0.32rem 0;
+}
+/* line 57, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi .risk-jianyi-cont .r-info {
+  font-size: 0.59733rem;
+  color: #9f9f9f;
+}
+/* line 60, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi .risk-jianyi-cont .r-info p {
+  padding-right: 0.85333rem;
+}
+/* line 63, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi .risk-jianyi-cont .r-info .yft {
+  color: #008dfe;
+}
+/* line 67, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi .risk-jianyi-cont .brief {
+  font-size: 0.59733rem;
+  color: #1e0000;
+  padding-top: 0.96rem;
+}
+/* line 71, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi .risk-jianyi-cont .brief img {
+  width: 0.256rem;
+  height: 0.96rem;
+  margin-right: 0.384rem;
+}
+/* line 77, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi .risk-jianyi-cont .brief-cont {
+  background: #fff2df;
+  padding: 0.59733rem 0.85333rem;
+  font-size: 0.59733rem;
+  color: #787777;
+  letter-spacing: -0.00213rem;
+  line-height: 1.152rem;
+  margin: 0.59733rem 0;
+}
+/* line 87, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi .risk-jianyi-cont .r-cont li {
+  padding-bottom: 1.28rem;
+}
+/* line 90, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi .risk-jianyi-cont .r-cont .rc-tit {
+  text-align: center;
+  font-size: 0.68267rem;
+  color: #414141;
+  padding: 0.53333rem 0;
+}
+/* line 95, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi .risk-jianyi-cont .r-cont .rc-tit img {
+  width: 0.98133rem;
+  height: 0.98133rem;
+  border-radius: 50%;
+  margin-right: 0.53333rem;
+}
+/* line 102, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi .risk-jianyi-cont .r-cont .rc-cont {
+  font-size: 0.59733rem;
+  color: #555555;
+  letter-spacing: 0.01707rem;
+  line-height: 1.024rem;
+}
+/* line 112, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi .r-bottom .btn-box {
+  padding: 0.64rem 4%;
+  border-top: 1px solid #f3f0f0;
+  border-bottom: 1px solid #d3f2f2;
+  font-size: 0.68267rem;
+  color: #555555;
+}
+/* line 118, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi .r-bottom .btn-box p {
+  width: 50%;
+  text-align: center;
+}
+/* line 122, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi .r-bottom .btn-box .zx-btn {
+  border-radius: 0.17067rem;
+  width: 6.61333rem;
+  height: 1.62133rem;
+  font-size: 0.59733rem;
+  color: #ffffff;
+  background-image: linear-gradient(-134deg, #fe8305 0%, rgba(255, 99, 25, 0.99) 100%);
+}
+/* line 132, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi .r-bottom .select {
+  padding: 0 4%;
+  height: 2.70933rem;
+}
+/* line 135, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi .r-bottom .select > img {
+  width: 1.06667rem;
+  height: 1.06667rem;
+}
+/* line 140, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi .r-bottom .select div img {
+  margin-left: 0.74667rem;
+  width: 0.768rem;
+  height: 0.768rem;
+}
+/* line 145, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi .r-bottom .select div span {
+  padding-left: 0.32rem;
+  font-size: 0.512rem;
+  color: #c4c4c4;
+}
+
+/* line 160, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi.weight .risk-jianyi-cont .r-title {
+  text-align: center;
+  font-size: 1.024rem;
+}
+/* line 164, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi.weight .risk-jianyi-cont .r-info {
+  display: none;
+}
+/* line 167, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi.weight .risk-jianyi-cont .brief {
+  font-size: 0.768rem;
+}
+/* line 170, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi.weight .risk-jianyi-cont .brief-cont {
+  font-size: 0.768rem;
+}
+/* line 174, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi.weight .risk-jianyi-cont .r-cont .rc-tit {
+  font-size: 0.768rem;
+}
+/* line 177, ../sass/risk-lvshijianyi.scss */
+.mobile-risk-lvshijianyi.weight .risk-jianyi-cont .r-cont .rc-cont {
+  font-size: 0.768rem;
+  line-height: 1.408rem;
+}

@@ -284,6 +284,26 @@ ol, ul {
 }
 
 /* line 136, ../sass/common.scss */
+.col-center {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+}
+
+/* line 149, ../sass/common.scss */
 .flex-center {
   display: -webkit-box;
   display: -moz-box;
@@ -302,7 +322,7 @@ ol, ul {
   -o-align-items: center;
 }
 
-/* line 148, ../sass/common.scss */
+/* line 161, ../sass/common.scss */
 .wrap-cen {
   display: -webkit-box;
   display: -moz-box;
@@ -317,7 +337,7 @@ ol, ul {
   -o-align-items: center;
 }
 
-/* line 159, ../sass/common.scss */
+/* line 172, ../sass/common.scss */
 .bottom {
   position: fixed;
   bottom: 0;
@@ -327,68 +347,68 @@ ol, ul {
   border-top: 1px solid #e5e1e1;
   z-index: 999;
 }
-/* line 167, ../sass/common.scss */
+/* line 180, ../sass/common.scss */
 .bottom li.cur a {
   color: #0077ff;
 }
-/* line 171, ../sass/common.scss */
+/* line 184, ../sass/common.scss */
 .bottom li a {
   color: #979797;
 }
-/* line 173, ../sass/common.scss */
+/* line 186, ../sass/common.scss */
 .bottom li a div {
   width: 0.98133rem;
   height: 0.98133rem;
 }
-/* line 176, ../sass/common.scss */
+/* line 189, ../sass/common.scss */
 .bottom li a p {
   text-align: center;
   font-size: 0.46933rem;
   padding-top: 0.21333rem;
 }
-/* line 183, ../sass/common.scss */
+/* line 196, ../sass/common.scss */
 .bottom .m-serve div {
   background: url("../img/qywx/serve.png") 0 0 no-repeat;
   background-size: contain;
   margin: 0 auto;
 }
-/* line 187, ../sass/common.scss */
+/* line 200, ../sass/common.scss */
 .bottom .m-serve.cur div {
   background: url("../img/qywx/aserve.png") 0 0 no-repeat;
   background-size: contain;
   margin: 0 auto;
 }
-/* line 191, ../sass/common.scss */
+/* line 204, ../sass/common.scss */
 .bottom .m-remind div {
   background: url("../img/qywx/remind.png") 0 0 no-repeat;
   background-size: contain;
   margin: 0 auto;
 }
-/* line 195, ../sass/common.scss */
+/* line 208, ../sass/common.scss */
 .bottom .m-remind.cur div {
   background: url("../img/qywx/aremind.png") 0 0 no-repeat;
   background-size: contain;
   margin: 0 auto;
 }
-/* line 199, ../sass/common.scss */
+/* line 212, ../sass/common.scss */
 .bottom .m-danger div {
   background: url("../img/qywx/danger.png") 0 0 no-repeat;
   background-size: contain;
   margin: 0 auto;
 }
-/* line 203, ../sass/common.scss */
+/* line 216, ../sass/common.scss */
 .bottom .m-danger.cur div {
   background: url("../img/qywx/adanger.png") 0 0 no-repeat;
   background-size: contain;
   margin: 0 auto;
 }
-/* line 207, ../sass/common.scss */
+/* line 220, ../sass/common.scss */
 .bottom .m-manage div {
   background: url("../img/qywx/manage.png") 0 0 no-repeat;
   background-size: contain;
   margin: 0 auto;
 }
-/* line 211, ../sass/common.scss */
+/* line 224, ../sass/common.scss */
 .bottom .m-manage.cur div {
   background: url("../img/qywx/amanage.png") 0 0 no-repeat;
   background-size: contain;

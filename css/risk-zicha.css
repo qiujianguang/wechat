@@ -1,0 +1,483 @@
+@charset "UTF-8";
+/* line 5, ../sass/risk-zicha.scss */
+.mobile-risk-zicha {
+  background: #f1f0f1;
+  /*头部*/
+  /*提示底部*/
+}
+/* line 8, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .top {
+  width: 100%;
+  height: 7.38133rem;
+  background-image: url("../img/qywx/ora-bg.png");
+  background-size: cover;
+}
+/* line 13, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .top .info-box {
+  width: 92%;
+  height: 4.26667rem;
+  margin: 0 4%;
+  background: #ffffff;
+  box-shadow: 0 1px 4px 0 rgba(210, 206, 206, 0.5);
+  position: absolute;
+  top: 3.84rem;
+  font-size: 0.85333rem;
+  color: #565555;
+  letter-spacing: 1.2px;
+  line-height: 1.408rem;
+  text-align: center;
+}
+/* line 30, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content {
+  margin-top: 0.64rem;
+}
+/* line 33, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zc-total {
+  background: #f1ae2d;
+  height: 1.87733rem;
+  line-height: 1.87733rem;
+  padding: 0 4%;
+  margin-top: 1.28rem;
+}
+/* line 39, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zc-total p {
+  font-size: 0.59733rem;
+  color: #ffffff;
+}
+/* line 42, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zc-total p .warn {
+  width: 1.10933rem;
+  height: 1.10933rem;
+  border-radius: 50%;
+  margin-right: 0.256rem;
+}
+/* line 48, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zc-total p .next {
+  width: 0.85333rem;
+  height: 0.85333rem;
+}
+/* line 52, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zc-total p span {
+  padding: 0 0.128rem;
+}
+/* line 57, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .cont-wrap {
+  padding: 4% 4% 0;
+}
+/* line 60, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .top-box {
+  background: #ffffff;
+  margin-bottom: 0.512rem;
+  padding-bottom: 0.576rem;
+}
+/* line 64, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .top-box .headul {
+  border-bottom: 1px solid #f1f0f1;
+}
+/* line 66, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .top-box .headul li {
+  font-size: 0.68267rem;
+  color: #808080;
+  text-align: center;
+  padding: 0.64rem 0;
+}
+/* line 72, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .top-box .headul li.cur {
+  border-bottom: 2px solid #0086ff;
+}
+/* line 76, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .top-box .exist {
+  padding: 0 4%;
+}
+/* line 79, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .top-box .no-exist {
+  padding: 0 4%;
+}
+/* line 82, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .top-box .tx-img {
+  padding: 1.57867rem 0;
+}
+/* line 84, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .top-box .tx-img img {
+  width: 2.496rem;
+  height: 2.496rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+/* line 92, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .top-box .tx-text {
+  font-size: 0.59733rem;
+  color: #474747;
+  line-height: 1.152rem;
+}
+/* line 96, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .top-box .tx-text .t-spe {
+  font-size: 0.64rem;
+  color: #ff641a;
+}
+/* line 101, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .top-box .tx-hint {
+  margin-top: 0.576rem;
+  background: #fff9db;
+  padding: 0.42667rem 0.85333rem;
+  font-size: 0.59733rem;
+  color: #474646;
+  line-height: 0.98133rem;
+}
+/* line 110, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .top-box .reward {
+  padding: 0.59733rem 0;
+  border-top: 2px solid #f1eff0;
+}
+/* line 113, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .top-box .reward li {
+  width: 49%;
+}
+/* line 115, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .top-box .reward li img {
+  width: 1.024rem;
+  height: 1.664rem;
+}
+/* line 119, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .top-box .reward li p {
+  font-size: 0.55467rem;
+  line-height: 0.768rem;
+  margin-top: 0.256rem;
+  color: #474747;
+}
+/* line 125, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .top-box .reward li:first-child {
+  border-right: 2px solid #f2f2f2;
+}
+/* line 131, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .top-box .no-loss {
+  font-size: 0.59733rem;
+  color: #474747;
+  text-align: center;
+  padding: 0.53333rem 0;
+}
+/* line 136, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .top-box .no-loss span {
+  color: #ff641a;
+  font-size: 0.64rem;
+}
+/* line 143, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item {
+  background: #ffffff;
+  padding: 0 4%;
+}
+/* line 146, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item:not(:last-child) {
+  margin-bottom: 0.512rem;
+}
+/* line 150, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .head {
+  padding: 1.06667rem 0 0.42667rem;
+  border-bottom: 1px solid #f1eeee;
+}
+/* line 153, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .head .tit {
+  font-size: 0.68267rem;
+  color: #000000;
+}
+/* line 156, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .head .tit img {
+  width: 1.49333rem;
+  height: 1.49333rem;
+  border-radius: 50%;
+  margin-right: 0.53333rem;
+}
+/* line 163, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .head .time {
+  font-size: 0.512rem;
+  color: #8b8989;
+}
+/* line 169, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap {
+  padding: 0.85333rem 0;
+  font-size: 0.59733rem;
+}
+/* line 173, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .zc-head .headimg {
+  width: 1.87733rem;
+  height: 1.87733rem;
+  border-radius: 50%;
+}
+/* line 179, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .zc-head .h-right p {
+  height: 0.98133rem;
+  line-height: 0.98133rem;
+  text-align: center;
+  border-radius: 0.14933rem;
+  color: #fd3917;
+  border: 1px solid #fd3917;
+  font-size: 0.46933rem;
+  margin-right: 0.53333rem;
+  padding: 0 0.32rem;
+}
+/* line 190, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .zc-head .h-right img {
+  width: 0.42667rem;
+  height: 0.42667rem;
+}
+/* line 196, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .zc-cont {
+  color: #474646;
+  position: relative;
+}
+/* line 199, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .zc-cont .zc-name {
+  padding-top: 0.42667rem;
+}
+/* line 202, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .zc-cont .zc-hint {
+  line-height: 1.024rem;
+  padding: 0.32rem 0;
+}
+/* line 206, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .zc-cont .hint-cont {
+  color: #fd4828;
+  padding: 0.64rem 0;
+}
+/* line 210, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .zc-cont .noreply {
+  position: absolute;
+  top: 4.26667rem;
+  left: 50%;
+  margin-left: -4.30933rem;
+  width: 8.61867rem;
+  height: 4.58667rem;
+  margin-top: -4.26667rem;
+}
+/* line 219, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .zc-cont .great {
+  position: absolute;
+  top: 4.26667rem;
+  left: 50%;
+  margin-left: -4.30933rem;
+  width: 8.61867rem;
+  height: 4.58667rem;
+  margin-top: -4.26667rem;
+}
+/* line 229, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .s-hint {
+  padding: 0.53333rem 0.64rem;
+  background-color: #fff9db;
+  border: 3px solid #f2f1f0;
+  color: #2b2a2f;
+  font-size: 0.59733rem;
+}
+/* line 236, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .yicall {
+  padding: 0.42667rem 0 0.21333rem;
+  color: #434242;
+}
+/* line 239, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .yicall img {
+  margin-right: 0.17067rem;
+  width: 0.64rem;
+  height: 0.64rem;
+}
+/* line 245, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .call-box {
+  color: #434242;
+  margin: 0.72533rem 0;
+}
+/* line 248, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .call-box img {
+  width: 0.64rem;
+  height: 0.64rem;
+  margin-right: 0.17067rem;
+}
+/* line 254, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .b-box {
+  margin-top: 0.21333rem;
+}
+/* line 256, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .b-box button {
+  width: 6.4rem;
+  height: 1.6rem;
+  border-radius: 0.128rem;
+  font-size: 0.59733rem;
+  color: white;
+}
+/* line 262, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .b-box button img {
+  width: 1.13067rem;
+  height: 1.13067rem;
+}
+/* line 267, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .b-box .tel-btn {
+  background: -webkit-linear-gradient(left, #00d165, #01c046);
+  background: -o-linear-gradient(left, #00d165, #01c046);
+  background: -moz-linear-gradient(left, #00d165, #01c046);
+  background: linear-gradient(left, #00d165, #01c046);
+}
+/* line 273, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .b-box .in-btn {
+  background: -webkit-linear-gradient(left, #ff8205, #ff6c16);
+  background: -o-linear-gradient(left, #ff8205, #ff6c16);
+  background: -moz-linear-gradient(left, #ff8205, #ff6c16);
+  background: linear-gradient(left, #ff8205, #ff6c16);
+}
+/* line 281, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .question-wrap {
+  margin-top: 2.09067rem;
+  font-size: 0.59733rem;
+}
+/* line 284, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .question-wrap .q-head {
+  background: #e0edff;
+  color: #0082ff;
+  position: relative;
+  width: 6.61333rem;
+  height: 1.28rem;
+  line-height: 1.28rem;
+  padding-left: 0.32rem;
+  margin-bottom: 0.96rem;
+}
+/* line 293, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .question-wrap .q-head span {
+  display: block;
+  width: 0;
+  height: 0;
+  border-width: 0.64rem 0 0.64rem 0.64rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #e0edff;
+  position: absolute;
+  top: 0;
+  left: 6.61333rem;
+}
+/* line 305, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .question-wrap .q-cont-outer {
+  color: #8b8b8b;
+  line-height: 1.024rem;
+}
+/* line 309, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .question-wrap .overfive {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+}
+/* line 316, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .question-wrap .lookmore {
+  display: block;
+  margin: 0.512rem auto 0;
+  width: 5.12rem;
+  height: 1.49333rem;
+  line-height: 1.49333rem;
+  text-align: center;
+  border: 1px solid #0086ff;
+  border-radius: 0.17067rem;
+  color: #0086ff;
+  font-size: 0.59733rem;
+}
+/* line 329, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .resolve-wrap {
+  margin-top: 2.09067rem;
+}
+/* line 331, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .resolve-wrap .r-head {
+  background: #fff2df;
+  color: #ff631b;
+  position: relative;
+  width: 7.08267rem;
+  height: 1.28rem;
+  line-height: 1.28rem;
+  padding-left: 0.32rem;
+  margin-bottom: 0.96rem;
+}
+/* line 340, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .resolve-wrap .r-head span {
+  display: block;
+  width: 0;
+  height: 0;
+  border-width: 0.64rem 0 0.64rem 0.64rem;
+  border-style: solid;
+  border-color: transparent transparent transparent #fff2df;
+  position: absolute;
+  top: 0;
+  left: 7.08267rem;
+}
+/* line 352, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .resolve-wrap .r-tit {
+  color: #404040;
+  font-size: 0.64rem;
+  margin-bottom: 0.96rem;
+}
+/* line 358, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .resolve-wrap .r-cont img {
+  width: 1.87733rem;
+  height: 2.13333rem;
+}
+/* line 362, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .resolve-wrap .r-cont .r-cont-rig {
+  width: 80%;
+  color: #8b8b8b;
+  line-height: 1.024rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+/* line 375, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .manyi-sele {
+  margin-top: 1.06667rem;
+  border-top: 2px solid #f0eeee;
+  padding-top: 0.64rem;
+}
+/* line 379, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .manyi-sele p {
+  width: 50%;
+  text-align: center;
+  color: #939393;
+  font-size: 0.512rem;
+}
+/* line 382, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .manyi-sele p img {
+  width: 0.98133rem;
+  height: 0.98133rem;
+  margin-right: 0.384rem;
+}
+/* line 389, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .manyi-sele p:first-child {
+  border-right: 2px solid #f0eeee;
+}
+/* line 397, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .no-call li {
+  padding: 0.59733rem 0;
+  font-size: 0.59733rem;
+}
+/* line 400, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .no-call li:not(:last-child) {
+  border-bottom: 2px solid #f3f0f0;
+}
+/* line 403, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .no-call li img {
+  width: 0.64rem;
+  height: 0.64rem;
+  margin-right: 0.17067rem;
+}
+/* line 408, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .zc-content .zicha-item .zc-cont-wrap .no-call li .nc-condition {
+  font-size: 0.512rem;
+  color: #fd5234;
+  padding: 0.128rem 0.21333rem;
+  border-radius: 0.17067rem;
+  border: 1px solid #fd5234;
+}
+/* line 422, ../sass/risk-zicha.scss */
+.mobile-risk-zicha .t-bottom {
+  width: 100%;
+  height: 2.24rem;
+  line-height: 2.24rem;
+  text-align: center;
+  background: #f1f0f1;
+  color: #d2d0d0;
+  font-size: 0.59733rem;
+  margin-bottom: 2.38933rem;
+}

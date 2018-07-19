@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,minimum-scale=1.0, maximum-scale=1.0,width=device-width">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no, email=no">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <title>我的全能法务</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/risk-anli.css">
+    <script src="js/jquery-1.8.0.min.js"></script>
+    <script src="js/hotcss.js"></script>
+</head>
+<body>
+    <div class="mobile-risk-anli">
+            <div class="top flex">
+                <div>
+                    <p class="t-tit">法院案例 <img src="img/qywx/bnext.png" alt=""></p>
+                    <p>推荐链接</p>
+                </div>
+                <div class="flex1">
+                    <span class="t-model">阅读模式</span><span class="sw-text">关闭</span>
+                    <span class="switch"><span class="w-dot"></span></span>
+                </div>
+            </div>
+            <div class="risk-anli-cont">
+            <p class="r-title">厦门xxxxx有限公司虚假宣传广告案例</p>
+            <div class="r-info flex1">
+                <p>2017-12-16</p>
+                <p>阅读（886）</p>
+                <p class="yft">易法通</p>
+            </div>
+            <p class="brief"><img src="img/qywx/redshu.png" alt="">内容简介</p>
+            <div class="brief-cont">
+                在竞业限制条款中，用人单位与负有保守用人单
+                位商业秘密义务的劳动者，在劳动合同、知识产
+                权利归属协议或技术保密协议中作一定的限制性
+                约定。
+            </div>
+            <ul class="r-cont">
+                <li>
+                    <p class="rc-tit">
+                        <img src="img/qywx/bw-dot.png" alt="">员工不返岗反告企业
+                    </p>
+                    <div class="rc-cont">
+                        2015年6月1日，李先生入职一家基金销售投资顾问公
+                        司担任总经理一职，双方签订了一份为期一年的《劳
+                        动合同》，李先生负责基金销售的管理工作。
+                    </div>
+                </li>
+                <li>
+                    <p class="rc-tit">
+                        <img src="img/qywx/bw-dot.png" alt="">遇到恶劣员工
+                    </p>
+                    <div class="rc-cont">
+                        为此，老东家向仲裁机构申请仲裁要求李先生赔偿违
+                        反竞业限制违约金334800元，并返还已经支付的竞
+                        业限制补偿金37200元，仲裁支持了公司的申请。可
+                        李先生觉得赔太多，反过来又把老东家告到法院。最
+                        终，法院判决：赔！
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+        <div class="r-bottom">
+            <div class="btn-box flex">
+                <button class="zx-btn">咨询我的法务经理</button>
+                <button class="check-btn">查看律师建议</button>
+            </div>
+            <div class="select flex">
+                <img src="img/qywx/r-return.png" alt="">
+                <div class="flex1">
+                    <img src="img/qywx/r-zhuangfa.png" alt="">
+                    <img src="img/qywx/r-shoucang.png" alt="">
+                    <p class="alicen"><img src="img/qywx/r-dianzan.png" alt=""><span>88</span></p>
+                    <img src="img/qywx/r-xiaoxi.png" alt="">
+                    <img src="img/qywx/r-ddd.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function(){
+            //阅读模式的开启关闭
+            $(".switch").click(function(){
+                var $this=$(this);
+                $this.toggleClass("cur");
+                if($this.hasClass("cur")){
+                    $this.find(".w-dot").css("transform", "translate(.6rem, 0)");
+                    $(".sw-text").html("开启");
+                }
+                else{
+                    $this.find(".w-dot").css("transform", "translate(0, 0)");
+                    $(".sw-text").html("关闭");
+                }
+            })
+        })
+    </script>
+</body>
+</html>

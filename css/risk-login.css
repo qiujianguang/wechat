@@ -1,0 +1,290 @@
+@charset "UTF-8";
+/* line 5, ../sass/risk-login.scss */
+.mobile-risk-login {
+  background: #f1f0f1;
+  /*头部*/
+}
+/* line 8, ../sass/risk-login.scss */
+.mobile-risk-login .top {
+  width: 100%;
+  height: 7.38133rem;
+  background-image: url("../img/qywx/ora-bg.png");
+  background-size: cover;
+}
+/* line 13, ../sass/risk-login.scss */
+.mobile-risk-login .top .info-box {
+  width: 92%;
+  height: 4.26667rem;
+  margin: 0 4%;
+  background: #ffffff;
+  box-shadow: 0 1px 4px 0 rgba(210, 206, 206, 0.5);
+  position: absolute;
+  top: 3.84rem;
+  font-size: 0.85333rem;
+  color: #565555;
+  letter-spacing: 1.2px;
+  line-height: 1.408rem;
+  text-align: center;
+}
+/* line 29, ../sass/risk-login.scss */
+.mobile-risk-login .m-content {
+  margin-top: 0.72533rem;
+  padding: 4%;
+}
+/* line 33, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .list-item {
+  background: #ffffff;
+}
+/* line 35, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .list-item .list-head {
+  position: relative;
+  height: 2.98667rem;
+  padding: 0 4%;
+  border-bottom: 1px solid #f2f0f0;
+}
+/* line 40, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .list-item .list-head .h-img {
+  width: 1.57867rem;
+  height: 1.57867rem;
+  border-radius: 50%;
+}
+/* line 45, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .list-item .list-head .middle {
+  width: 72%;
+}
+/* line 47, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .list-item .list-head .middle .t-main {
+  font-size: 0.68267rem;
+  color: #020202;
+  padding-bottom: 0.21333rem;
+}
+/* line 52, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .list-item .list-head .middle .t-sec {
+  font-size: 0.512rem;
+  color: #868484;
+}
+/* line 57, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .list-item .list-head .next {
+  width: 0.46933rem;
+  height: 0.46933rem;
+  cursor: pointer;
+}
+/* line 63, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .list-item:not(:last-child) {
+  margin-bottom: 0.512rem;
+}
+/* line 69, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .watch .watch-cont {
+  position: relative;
+  margin: 0.64rem 0.64rem 0;
+  padding-bottom: 0.64rem;
+  height: 7.04rem;
+  color: #bbb7b7;
+  font-size: 0.68267rem;
+}
+/* line 76, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .watch .watch-cont p {
+  position: absolute;
+}
+/* line 78, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .watch .watch-cont p:nth-child(1) {
+  top: 0;
+  left: 0.064rem;
+  font-size: 0.68267rem;
+  color: #696969;
+}
+/* line 84, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .watch .watch-cont p:nth-child(2) {
+  top: 0.85333rem;
+  right: 0.064rem;
+  font-size: 0.68267rem;
+  color: #696969;
+}
+/* line 90, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .watch .watch-cont p:nth-child(3) {
+  top: 1.92rem;
+  right: 4.69333rem;
+  font-size: 0.832rem;
+  color: #fd5234;
+}
+/* line 96, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .watch .watch-cont p:nth-child(4) {
+  top: 3.30667rem;
+  left: 0.85333rem;
+}
+/* line 100, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .watch .watch-cont p:nth-child(5) {
+  top: 4.224rem;
+  right: 0.85333rem;
+}
+/* line 105, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .watch .watch-cont p:nth-child(6) {
+  top: 5.248rem;
+  left: 1.152rem;
+  font-size: 0.72533rem;
+}
+/* line 110, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .watch .watch-cont p span {
+  color: #f58471;
+}
+/* line 118, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .zicha .zicha-cont {
+  padding: 0 4%;
+}
+/* line 120, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .zicha .zicha-cont .zc-head {
+  padding-top: 0.32rem;
+}
+/* line 123, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .zicha .zicha-cont .zc-head .star-box span {
+  display: inline-block;
+  padding: 0.21333rem 0.14933rem;
+  margin-right: 0.21333rem;
+  border: 2px solid  #fd5234;
+  color: #fd5234;
+  font-size: 0.512rem;
+  border-radius: 0.10667rem;
+}
+/* line 132, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .zicha .zicha-cont .zc-head .star-box img {
+  width: 0.46933rem;
+  height: 0.42667rem;
+}
+/* line 139, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .zicha .zicha-cont .tishi-cont > p {
+  font-size: 0.59733rem;
+}
+/* line 141, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .zicha .zicha-cont .tishi-cont > p:nth-child(1) {
+  color: #474747;
+  padding: 0.64rem 0;
+}
+/* line 145, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .zicha .zicha-cont .tishi-cont > p:nth-child(2) {
+  color: #474747;
+  padding-bottom: 0.81067rem;
+  line-height: 1.024rem;
+}
+/* line 150, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .zicha .zicha-cont .tishi-cont > p:nth-child(3) {
+  line-height: 1.024rem;
+  color: #fd5234;
+  padding-bottom: 0.81067rem;
+}
+/* line 156, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .zicha .zicha-cont .tishi-cont .same {
+  padding: 0 0.768rem;
+  background-color: #fef8da;
+}
+/* line 159, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .zicha .zicha-cont .tishi-cont .same p {
+  height: 3.136rem;
+  font-family: PingFang-SC-Medium;
+  font-size: 0.59733rem;
+  line-height: 1.024rem;
+  color: #474747;
+}
+/* line 167, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .zicha .zicha-cont .tishi-cont .btn {
+  margin-top: 1.00267rem;
+  padding-bottom: 1.00267rem;
+}
+/* line 170, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .zicha .zicha-cont .tishi-cont .btn button {
+  width: 6.4rem;
+  height: 1.62133rem;
+  font-size: 0.59733rem;
+  border-radius: 0.128rem;
+}
+/* line 177, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .zicha .zicha-cont .tishi-cont .btn .call-btn {
+  color: #ffffff;
+  background-image: linear-gradient(-90deg, #01bf45 0%, #00d267 100%), linear-gradient(#0cbe2a, #0cbe2a);
+}
+/* line 178, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .zicha .zicha-cont .tishi-cont .btn .call-btn img {
+  width: 1.10933rem;
+  height: 1.10933rem;
+}
+/* line 187, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .zicha .zicha-cont .tishi-cont .btn .yi-btn {
+  border: 2px solid #b3b1b1;
+  color: #a09e9e;
+}
+/* line 192, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .zicha .zicha-cont .tishi-cont .t-main {
+  color: #ff4f00;
+}
+/* line 202, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .study .s-cont li {
+  background: #ffffff;
+}
+/* line 204, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .study .s-cont li .sc-head {
+  padding: 0.64rem 4%;
+  font-size: 0.68267rem;
+  color: #474747;
+}
+/* line 209, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .study .s-cont li .sc-cont {
+  padding: 0 4%;
+}
+/* line 211, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .study .s-cont li .sc-cont .sc-text {
+  font-size: 0.59733rem;
+  color: #939393;
+  line-height: 1.024rem;
+}
+/* line 216, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .study .s-cont li .sc-cont .sc-info {
+  margin: 0.59733rem 0.21333rem;
+}
+/* line 218, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .study .s-cont li .sc-cont .sc-info .i-type {
+  font-size: 0.55467rem;
+  color: #ff4f00;
+  padding: 0.17067rem;
+  border: 1px solid #ff4f00;
+  border-radius: 0.10667rem;
+}
+/* line 225, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .study .s-cont li .sc-cont .sc-info .i-time {
+  font-size: 0.512rem;
+  color: #c1c1c1;
+}
+/* line 230, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .study .s-cont li .sc-cont .sc-bottom {
+  border-top: 1px solid #f3f0f0;
+  height: 2.00533rem;
+}
+/* line 233, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .study .s-cont li .sc-cont .sc-bottom img {
+  width: 0.768rem;
+  height: 0.768rem;
+}
+/* line 238, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .study .s-cont li .sc-cont .sc-bottom div p {
+  margin-right: 1.06667rem;
+}
+/* line 240, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .study .s-cont li .sc-cont .sc-bottom div p span {
+  font-size: 0.512rem;
+  color: #c5c5c5;
+  padding-left: 0.21333rem;
+}
+/* line 249, ../sass/risk-login.scss */
+.mobile-risk-login .m-content .study .s-cont li:not(:last-child) {
+  margin-bottom: 0.512rem;
+}
+/* line 257, ../sass/risk-login.scss */
+.mobile-risk-login .baoming {
+  background: #ffffff;
+  padding: 0.85333rem 0 3.02933rem;
+}
+/* line 260, ../sass/risk-login.scss */
+.mobile-risk-login .baoming img {
+  width: 14.72rem;
+  height: 10.96533rem;
+  margin: 0 auto;
+  display: block;
+}

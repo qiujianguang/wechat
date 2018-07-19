@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/* line 5, ../sass/risk-study.scss */
+.mobile-risk-study {
+  background: #f1f0f1;
+  /*头部*/
+  /*提示底部*/
+}
+/* line 8, ../sass/risk-study.scss */
+.mobile-risk-study .top {
+  width: 100%;
+  height: 7.38133rem;
+  background-image: url("../img/qywx/ora-bg.png");
+  background-size: cover;
+}
+/* line 13, ../sass/risk-study.scss */
+.mobile-risk-study .top .info-box {
+  width: 92%;
+  height: 4.26667rem;
+  margin: 0 4%;
+  background: #ffffff;
+  box-shadow: 0 1px 4px 0 rgba(210, 206, 206, 0.5);
+  position: absolute;
+  top: 3.84rem;
+  font-size: 0.85333rem;
+  color: #565555;
+  letter-spacing: 1.2px;
+  line-height: 1.408rem;
+  text-align: center;
+}
+/* line 30, ../sass/risk-study.scss */
+.mobile-risk-study .s-content {
+  padding: 0 4%;
+  margin-top: 0.72533rem;
+}
+/* line 33, ../sass/risk-study.scss */
+.mobile-risk-study .s-content .s-title {
+  padding: 0.64rem 0;
+}
+/* line 35, ../sass/risk-study.scss */
+.mobile-risk-study .s-content .s-title p {
+  font-size: 0.768rem;
+  color: #020202;
+}
+/* line 39, ../sass/risk-study.scss */
+.mobile-risk-study .s-content .s-title span {
+  font-size: 0.512rem;
+  color: #868484;
+}
+/* line 46, ../sass/risk-study.scss */
+.mobile-risk-study .s-content .s-cont li {
+  background: #ffffff;
+}
+/* line 48, ../sass/risk-study.scss */
+.mobile-risk-study .s-content .s-cont li .sc-head {
+  padding: 0.64rem 0;
+}
+/* line 50, ../sass/risk-study.scss */
+.mobile-risk-study .s-content .s-cont li .sc-head img {
+  width: 0.21333rem;
+  height: 0.85333rem;
+  margin-top: 0.128rem;
+}
+/* line 55, ../sass/risk-study.scss */
+.mobile-risk-study .s-content .s-cont li .sc-head p {
+  font-size: 0.68267rem;
+  color: #474747;
+  width: 96%;
+}
+/* line 61, ../sass/risk-study.scss */
+.mobile-risk-study .s-content .s-cont li .sc-cont {
+  padding: 0 4%;
+}
+/* line 63, ../sass/risk-study.scss */
+.mobile-risk-study .s-content .s-cont li .sc-cont .sc-text {
+  font-size: 0.59733rem;
+  color: #939393;
+  line-height: 1.024rem;
+}
+/* line 68, ../sass/risk-study.scss */
+.mobile-risk-study .s-content .s-cont li .sc-cont .sc-info {
+  margin: 0.59733rem 0.21333rem;
+}
+/* line 70, ../sass/risk-study.scss */
+.mobile-risk-study .s-content .s-cont li .sc-cont .sc-info .i-type {
+  font-size: 0.55467rem;
+  color: #ff4f00;
+  padding: 0.17067rem;
+  border: 1px solid #ff4f00;
+  border-radius: 0.128rem;
+}
+/* line 77, ../sass/risk-study.scss */
+.mobile-risk-study .s-content .s-cont li .sc-cont .sc-info .i-time {
+  font-size: 0.512rem;
+  color: #c1c1c1;
+}
+/* line 82, ../sass/risk-study.scss */
+.mobile-risk-study .s-content .s-cont li .sc-cont .sc-bottom {
+  border-top: 1px solid #f3f0f0;
+  height: 2.00533rem;
+}
+/* line 85, ../sass/risk-study.scss */
+.mobile-risk-study .s-content .s-cont li .sc-cont .sc-bottom img {
+  width: 0.768rem;
+  height: 0.768rem;
+}
+/* line 90, ../sass/risk-study.scss */
+.mobile-risk-study .s-content .s-cont li .sc-cont .sc-bottom div p {
+  margin-right: 1.06667rem;
+}
+/* line 92, ../sass/risk-study.scss */
+.mobile-risk-study .s-content .s-cont li .sc-cont .sc-bottom div p span {
+  font-size: 0.512rem;
+  color: #c5c5c5;
+  padding-left: 0.21333rem;
+}
+/* line 101, ../sass/risk-study.scss */
+.mobile-risk-study .s-content .s-cont li:not(:last-child) {
+  margin-bottom: 0.512rem;
+}
+/* line 108, ../sass/risk-study.scss */
+.mobile-risk-study .pop {
+  background: #111111;
+}
+/* line 110, ../sass/risk-study.scss */
+.mobile-risk-study .pop li {
+  width: 33%;
+  padding: 1.06667rem 0;
+}
+/* line 113, ../sass/risk-study.scss */
+.mobile-risk-study .pop li img {
+  width: 2.56rem;
+  height: 2.56rem;
+  border-radius: 50%;
+  background: white;
+}
+/* line 119, ../sass/risk-study.scss */
+.mobile-risk-study .pop li p {
+  color: #ffffff;
+  font-sizE: 0.59733rem;
+  padding-top: 0.32rem;
+}
+/* line 127, ../sass/risk-study.scss */
+.mobile-risk-study .t-bottom {
+  width: 100%;
+  height: 2.24rem;
+  line-height: 2.24rem;
+  text-align: center;
+  background: #f1f0f1;
+  color: #d2d0d0;
+  font-size: 0.59733rem;
+  margin-bottom: 2.38933rem;
+}
